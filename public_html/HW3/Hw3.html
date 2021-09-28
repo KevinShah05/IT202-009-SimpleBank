@@ -9,16 +9,55 @@
             console.log("loaded via javascript");
             //TODO: add any extra onload processing you may need here
         });
-        function getCurrentSelection() {
+        function getCurrentSelection(link) {
             setTimeout(() => {
-                //added this delay here as some solutions may require it to update properly (i.e., click code may complete before the navigation changes)
-                //TODO: add code for processing the current selection 
+            //added this delay here as some solutions may require it to update properly (i.e., click code may complete before the navigation changes)
+            //TODO: add code for processing the current selection 
+            var currentClickedLinkText = link.innerText;
 
-                //Note: likely you'll want to call updateCurrentPage towards the end
+            //Note: likely you'll want to call updateCurrentPage towards the end
+            updateCurrentPage(currentClickedLinkText);
             }, 100);
         }
     </script>
     <style>
+        ul li {
+           display: inline;
+
+           padding: 0.3rem;
+
+           font-size: large;  
+        }
+
+        ul {
+           list-style-type: none;
+           
+           background-color: rgb(44, 151, 142);
+
+           padding: 0.2rem 1.4rem;
+        }
+
+        ul a:hover {
+            color: rgb(245, 11, 11);
+        }
+
+        ul li::before {
+            content: '✓';
+        }
+
+        ul li a {
+            display: inline-block;
+
+            padding: 0.3rem;
+        }
+
+        h1::first-letter,
+        a::first-letter {
+            text-transform: uppercase;
+            
+        }
+
+        
         /* TODO: make edits here */
     </style>
     <!-- make the necessary edits above this line -->
