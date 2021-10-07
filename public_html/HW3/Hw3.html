@@ -7,15 +7,25 @@
     <script>
         window.addEventListener("load", () => {
             console.log("loaded via javascript");
+            
             //TODO: add any extra onload processing you may need here
         });
         function getCurrentSelection() {
             setTimeout(() => {
                 
-            
-            }, 100);
+            }, 0);
+            document.addEventListener("click", function(){ 
+                    
+                    let str = window.location.href;
+                    // updateCurrentPage(tr.slice(35) );
+                    console.log(str.slice(35) ); 
+                    var x = document.getElementsByTagName("h1")[0];
+                    x.innerHTML = str.slice(35);
+                });
 
         }  
+        getCurrentSelection();
+        
  
     </script>
     <style>
@@ -24,7 +34,6 @@
         margin: 1;
         padding: 0;
         }    
-
         nav li {
             /* Horizontal navigation */
            display: inline;
