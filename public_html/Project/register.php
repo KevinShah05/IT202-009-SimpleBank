@@ -1,73 +1,101 @@
 <?php
 require(__DIR__ . "/../../partials/nav.php");
-?>
-<form onsubmit="return validate(this)" method="POST">
-<h1>Register</h1>
-    <div>
-        <label for="email">Email</label>
-        <input type="email" name="email" required />
-    </div>
-    <div>
-        <label for="pw">Password</label>
-        <input type="password" id="pw" name="password" required minlength="8" />
-    </div>
-    <div>
-        <label for="confirm">Confirm</label>
-        <input type="password" name="confirm" required minlength="8" />
-    </div>
-    <input type="submit" value="Register" />
-</form>
-<script>
-    function validate(form) {
-        //TODO 1: implement JavaScript validation
-        //ensure it returns false for an error and true for success
+if(isset($_POST["submit"])){
+    $email = se($_POST, "email", null, false);
+    $password = trim(se($_POST, "password", null, false));   
+    $confirm = trim(se($_POST, "confirm", null, false));
+    
+    $isValid = true;
+    if(!isset($email) || !isset($password) || !isset($confirm)){
+        se("Must provide email, password, and confirm password");
+        $isValid =false;
 
-        return true;
     }
-</script>
-<?php
-//TODO 2: add PHP Code
-if (isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["confirm"])) {
-    $email = se($_POST, "email", "", false);
-    $password = se($_POST, "password", "", false);
-    $confirm = se($_POST, "confirm", "", false);
-    //TODO 3
 
-
-    $errors = [];
-    if (empty($email)) {
-        array_push($errors, "Email must not be empty");
+    if ($password !== $confirm){
+        se("Passwords don't match");
+        $isValid = false;
+    } 
+    if (strlen($password) < 3) {
+        se("Password must be 3 or more characters");
+        $isValid = false; 
     }
-    $email = filter_var($email, FILTER_SANITIZE_EMAIL);
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        array_push($errors, "Email is invalid");
+    
+    $email = sanitize_email($email);
+    if(!is_valid_email($email)){
+        se("Invalid email");
+        $isValid = false;
     }
-    if (empty($password)) {
-        array_push($errors, "Password must not be empty");
-    }
-    if (empty($confirm)) {
-        array_push($errors, "Confirm Password must not be empty");
-    }
-    if (strlen($password) < 8) {
-        array_push($errors, "Password too short");
-    }
-    if (strlen($password) > 0 && $password !== $confirm) {
-        array_push($errors, "Passwords must match");
-    }
-    if (count($errors) > 0) {
-        echo "<pre>" . var_export($errors, true) . "</pre>";
-    } else {
-        echo "Welcome, $email";
-        $hash = password_hash($password, PASSWORD_BCRYPT);
+    if($isValid){
+        //do our registration
         $db = getDB();
-        $stmt = $db->prepare("INSERT INTO Users (email, password) VALUES(:email, :password)");
+        $stmt = $db->prepare("INSERT INTO Users (email, password) VALUES (:email, :password)");
+        $hash = password_hash($password, PASSWORD_BCRYPT);
         try {
+
             $stmt->execute([":email" => $email, ":password" => $hash]);
-            echo "You've registered, yay...";
-        } catch (Exception $e) {
-            echo "There was a problem registering";
-            echo "<pre>" . var_export($e, true) . "</pre>";
-        }
-    }
+        } catch(PDOException $e) {
+            $code = se($e->errorInfo, 0, "00000", false);
+            if ($code === "23000") {
+                se("An account with this email already exists");
+            } else {
+                echo "<pre>" . var_export($e->errorInfo, true) . "</pre>";
+            }    
+        
+        
+        }    
+    } 
 }
+
 ?>
+<div> 
+    <h1>Register</h1>
+    <form method="POST" onsubmit="return validate(this);">
+        <div>
+            <lable for="email">Email: </lable>
+            <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+            <lable for="pw">Password: </lable>
+            <input type="password" id="pw" name="password" required />
+        </div>
+        <div>
+            <lable for="cpw">Confirm Password: </lable>
+            <input type="password" id="cpw" name="confirm" required />   
+        </div>
+        <div>
+            <input type="submit" name="submit" value="Register" />
+        </div>
+    </form>
+<div>
+<script>
+    function validate(form){
+        let email = form.email.value;
+        let password = form.password.value;
+        let confirm = form.confirm.value;
+        let isValid = true; 
+        if (email){
+            email = email.trim();
+        }
+        if(password){
+            password = password.trim();
+        }
+        if(confirm ){
+            confirm = confirm.trim();
+        }
+        if(email.indexOf("@") === -1){
+            isValid = false;
+            alert("Invalid email");
+        }
+        if(password != confirm){
+            isValid = false; 
+            alert("password don't match");
+        }
+        if(password.length < 3){
+            isValid = false;
+            alert("password must be 3 or more characters");     
+        }
+        return isValid;
+    }
+
+</script>
