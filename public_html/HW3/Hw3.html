@@ -11,57 +11,64 @@
         });
         function getCurrentSelection(link) {
             setTimeout(() => {
-            //added this delay here as some solutions may require it to update properly (i.e., click code may complete before the navigation changes)
-            //TODO: add code for processing the current selection 
             var currentClickedLinkText = link.innerText;
-            
             //Note: likely you'll want to call updateCurrentPage towards the end
             updateCurrentPage(currentClickedLinkText);
             }, 100);
-        }    
+
+        }  
+ 
     </script>
     <style>
-        
-        ul li {
+        *{
+        /* removing default spacing of the browser */
+        margin: 1;
+        padding: 0;
+        }    
+
+        nav li {
             /* Horizontal navigation */
            display: inline;
-           font-size: large;  
         }
 
         ul {
             /* Get rid of the navigation list item markers */
            list-style-type: none;
-        
-           /* Give the navigation a background */
-           background-color: rgb(96, 134, 146);
         }
 
-        ul a:hover {
-        /* Make the links change color on mouseover */
-            color: rgb(245, 11, 11);
+        nav {
+        /* setting a background to the navigation */
+        background-color: rgb(49, 170, 160);
+        height: 3vh;
+        }
+
+        a:hover {
+        /* changing the color of link on mouse over */
+        color: rgb(252, 14, 14);
         }
 
         ul li::before {
         /* Change the "bullet points" of this entire list to checkmarks (✓) */
-            content: '✓';
+        content: '✓';
         }
 
         h1::first-letter,
         a::first-letter {
-            /* Uppercase the first character of the content in the <h1> tag and the <a> tags */
-            text-transform: uppercase;
+        /* Uppercase the first character of the content in the <h1> tag and the <a> tags */
+        text-transform: uppercase;
         }
+
+        /* Extra Credit Challange */
+        nav {
+            background-color: rgb(183, 201, 206); /* Adding background color */
+            height: 3vh; 
+        }
+        ul {
+            background-color: rgb(183, 201, 206); /* Give the navigation a background */
+        }   
         
         /* TODO: make edits here */
     </style>
-     <h1>Problem 1</h1>
-    
-       <ul>
-         <li><a href="#" onclick="updateCurrentPage('login')">login</a></li>
-         <li><a href="#" onclick="updateCurrentPage('register')">legister</a></li>
-         <li><a href="#" onclick="updateCurrentPage('profile')">profile</a></li>
-         <li><a href="#" onclick="updateCurrentPage('logout')">logout</a></li>
-       </ul>
 
     <!-- make the necessary edits above this line -->
 
@@ -70,6 +77,7 @@
             //Don't edit anything in this tag and do not delete it
     </script>
 </head>
+
 <!-- Do not edit anything below this line, doing so will lose points-->
 
 <body onload="check();updateCurrentPage('start');">
