@@ -13,7 +13,7 @@
         function getCurrentSelection() {
             setTimeout(() => {
                 
-            }, 0);
+            }, 100);
             document.addEventListener("click", function(){ 
                     
                     let str = window.location.href;
@@ -22,11 +22,10 @@
                     var x = document.getElementsByTagName("h1")[0];
                     x.innerHTML = str.slice(35);
                 });
-
         }  
         getCurrentSelection();
         
- 
+
     </script>
     <style>
         *{
