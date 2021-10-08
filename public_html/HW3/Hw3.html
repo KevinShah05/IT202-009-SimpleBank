@@ -21,6 +21,7 @@
                     console.log(str.slice(35) ); 
                     var x = document.getElementsByTagName("h1")[0];
                     x.innerHTML = str.slice(35);
+                    
                 });
         }  
         getCurrentSelection();
@@ -28,25 +29,28 @@
 
     </script>
     <style>
-        *{
-        /* removing default spacing of the browser */
-        margin: 1;
-        padding: 0;
-        }    
+
+        
         nav li {
             /* Horizontal navigation */
            display: inline;
         }
 
-        ul {
+        nav li {
+            float: left;
+            padding: 0.3rem;
+            font-size: large;
+        }
+
+        ul  {
             /* Get rid of the navigation list item markers */
            list-style-type: none;
         }
 
         nav {
         /* setting a background to the navigation */
-        background-color: rgb(49, 170, 160);
-        height: 3vh;
+        background-color: rgb(111, 214, 200);
+        height: 4vh;
         }
 
         a:hover {
@@ -59,6 +63,10 @@
         content: '✓';
         }
 
+        nav li::before {
+            content: '';
+        }
+
         h1::first-letter,
         a::first-letter {
         /* Uppercase the first character of the content in the <h1> tag and the <a> tags */
@@ -66,13 +74,10 @@
         }
 
         /* Extra Credit Challange */
-        nav {
-            background-color: rgb(183, 201, 206); /* Adding background color */
-            height: 3vh; 
-        }
         ul {
-            background-color: rgb(183, 201, 206); /* Give the navigation a background */
-        }   
+            background-color: rgb(111, 156, 214); /* Changed background color */
+        }
+
         
         /* TODO: make edits here */
     </style>

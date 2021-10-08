@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head>
+<head>  
     <title>Problem 1</title>
     <meta charset="utf-8" />
     <script>
         window.addEventListener("load", () => {
             console.log("loaded via javascript");
             //TODO: add any extra onload processing you may need here
+        
+
         });
+        function updateCurrentPage(page) {
+            let h1 = document.getElementsByTagName("h1")[0];
+            let title = document.getElementsByTagName("title")[0];
+            h1.innerText = page;
+            title.innerText = page[0].toUpperCase() + page.slice(1);
+        }
+        
+        console.log(document.getAttribute('li'));
         function getCurrentSelection() {
             setTimeout(() => {
                 //added this delay here as some solutions may require it to update properly (i.e., click code may complete before the navigation changes)
@@ -17,7 +27,8 @@
                 //Note: likely you'll want to call updateCurrentPage towards the end
             }, 100);
         }
-    </script>
+    </script> 
+    
     <style>
         /* TODO: make edits here */
     </style>
@@ -34,7 +45,7 @@
 <body onload="check();updateCurrentPage('start');">
     <header>
         <h2>Problem 1</h2>
-    </header>
+    </header> 
     <nav>
         <ul>
             <li><a href="#login">login</a></li>
@@ -80,18 +91,3 @@
 </body>
 
 </html>
-
-/* Extra Credit Challange */
-        nav {
-            background-color: rgb(183, 201, 206); /* Adding background color */
-            height: 3vh; 
-        }
-        ul {
-            background-color: rgb(183, 201, 206); /* Give the navigation a background */
-        } 
-
-        *{
-            /* removing default spacing of the browser */
-            margin: 1;
-            padding: 0;
-            } 
