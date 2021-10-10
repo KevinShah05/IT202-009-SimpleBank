@@ -9,16 +9,16 @@ require(__DIR__. "/../../partials/nav.php");
      $password = trim(se($_POST, "password", "", false));
      $isValid = true;
      if(!isset($email) || !isset($password)){
-         se("Must provide email, password");
+         flash("Must provide email, password", "warning");
      }
      if(strlen($password) < 3){
-        se("passwrod must be 3 or more characters");
+        flash("passwrod must be 3 or more characters", "warning");
         $isValid = false;
      }
 
      $email= sanitize_email($email);
      if (!is_valid_email($email)){
-        se("Invalid email");
+        flash("Invalid email", "warning");
         $isValid = false;
      }
      if ($isValid){
@@ -32,10 +32,10 @@ require(__DIR__. "/../../partials/nav.php");
             if ($user){
                 $upass = $user["password"];
                 if(password_verify($password , $upass)){
-                    se("yay we loged in");
+                    flash("Login successful", "success");
                     unset($user["password"]);
                     $_SESSION["user"] = $user;
-                    echo "<pre>" . var_export($_SESSION, true) . "</pre>";
+                    //echo "<pre>" . var_export($_SESSION, true) . "</pre>";
                     die(header("Location: home.php"));
                 }
                 else{
@@ -96,3 +96,7 @@ require(__DIR__. "/../../partials/nav.php");
         return isValid;
     }
 </script>
+
+<?php
+require(__DIR__ . "/../../partials/flash.php");
+?>
