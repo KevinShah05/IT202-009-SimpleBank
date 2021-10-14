@@ -16,6 +16,8 @@ session_start();
 require(__DIR__ . "/../lib/functions.php");
 
 ?>
+<link rel="stylesheet" href="styles.css">
+<script src="helpers.js"></script>
 <nav>
     <ul>
         <?php if (is_logged_in()) : ?>
