@@ -3,7 +3,7 @@
     <canvas id="canvas" width="600" height="400" tabindex="1"></canvas>
 </html>
 <script>
-    
+
     // Canvas Pong
     var context = canvas.getContext('2d');
 
@@ -218,7 +218,31 @@
         bounceBall();
         }
     }
+
     // Score if the ball goes past a paddle
+    //----------------------CHANGE 1: TWEAKED PADDLES----------------------//
+
+    //WHEN BALL HITS, PADDLE SIZE CHANGES ACCORDING TO THE CONDITION
+    if(rightScore > 3){
+        leftPaddle.h = 80;
+    }
+    if(rightScore > 6){
+        leftPaddle.h = 75;
+    }
+    if(rightScore > 9){
+        leftPaddle.h = 60;
+    }
+    if(leftScore > 3){
+        rightPaddle.h = 80;
+    }
+    if(leftScore > 6){
+        rightPaddle.h = 75;
+    }
+
+    if(leftScore > 9){
+        rightPaddle.h = 60;
+    }
+
     if (ball.x < leftPaddle.x) {
         rightScore++;
         resetBall();
@@ -228,6 +252,7 @@
         resetBall();
         ball.sX *= -1;
     }
+
     // Draw the paddles and ball
     leftPaddle.draw();
     rightPaddle.draw();
@@ -240,7 +265,7 @@
     context.textAlign = 'right';
     context.fillText('Score: ' + rightScore, canvas.width - 5, 24);
     // End the game or keep going
-    if (leftScore === 10 || rightScore === 10) {
+    if (leftScore === 21 || rightScore === 21) {
         endGame();
     } else {
         window.requestAnimationFrame(draw);
