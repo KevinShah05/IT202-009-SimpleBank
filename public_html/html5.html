@@ -178,6 +178,7 @@
     // Main draw loop
     function draw() {
     erase();
+
     // Move the paddles
     if (keys.W) {
         leftPaddle.y -= leftPaddle.s;
@@ -191,13 +192,16 @@
     if (keys.DOWN) {
         rightPaddle.y += rightPaddle.s;
     }
+
     // Move the ball
     ball.x += ball.sX;
     ball.y += ball.sY;
+
     // Bounce the ball off the top/bottom
     if (ball.y < 0 || ball.y + ball.h > canvas.height) {
         ball.sY *= -1;
     }
+
     // Don't let the paddles go off screen
     [leftPaddle, rightPaddle].forEach(function(paddle) {
         if (paddle.y < 0) {
@@ -207,14 +211,19 @@
         paddle.y = canvas.height - paddle.h;
         }
     });
+
     // Bounce the ball off the paddles
     if (ball.y + ball.h/2 >= leftPaddle.y && ball.y + ball.h/2 <= leftPaddle.y + leftPaddle.h) {
         if (ball.x <= leftPaddle.x + leftPaddle.w) {
+
+        //----------------------CHANGE 2.1: TWEAKED SCORES----------------------//
+        leftScore++; //Whenever ball hits paddle, score goes up by +1
         bounceBall();
         }
     } 
     if (ball.y + ball.h/2 >= rightPaddle.y && ball.y + ball.h/2 <= rightPaddle.y + rightPaddle.h) {
         if (ball.x + ball.w >= rightPaddle.x) {
+        rightScore++; //Whenever ball hits paddle, score goes up by +1
         bounceBall();
         }
     }
@@ -243,20 +252,24 @@
         rightPaddle.h = 60;
     }
 
+    //----------------------CHANGE 2.2: TWEAKED SCORES----------------------//
+    //Whenever player misses the ball, score decreases(it can also go in negative figure), and oppenent score increases.
+    
     if (ball.x < leftPaddle.x) {
-        rightScore++;
+        leftScore--;
         resetBall();
         ball.sX *= -1;
     } else if (ball.x + ball.w > rightPaddle.x + rightPaddle.w) {
-        leftScore++;
+        rightScore--;
         resetBall();
         ball.sX *= -1;
     }
-
+    
     // Draw the paddles and ball
     leftPaddle.draw();
     rightPaddle.draw();
     ball.draw();
+
     // Draw the scores
     context.fillStyle = '#000000';
     context.font = '24px Arial';
@@ -264,8 +277,12 @@
     context.fillText('Score: ' + leftScore, 5, 24);
     context.textAlign = 'right';
     context.fillText('Score: ' + rightScore, canvas.width - 5, 24);
+    
     // End the game or keep going
-    if (leftScore === 21 || rightScore === 21) {
+    //----------------------CHANGE 2.3: TWEAKED SCORES----------------------//
+    //Added negative numbers condition
+
+    if (leftScore === 51 || rightScore === 51 || leftScore < -51 || rightScore < -51) {
         endGame();
     } else {
         window.requestAnimationFrame(draw);
