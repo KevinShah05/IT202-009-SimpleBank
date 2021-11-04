@@ -1,12 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <h1>Welcome to Pong Game</h1>
-    <canvas id="canvas" width="700" height="700" tabindex="1"></canvas> 
-</html> 
-
+    <canvas id="canvas" width="800" height="800" tabindex="1"></canvas>
+</html>
 <script>
-
-    // Canvas Pong
+    //var canvas = document.getElementById('canvas');
     var context = canvas.getContext('2d');
 
     // Key Codes
@@ -43,8 +40,8 @@
     // Create the paddles
     var paddleWidth = 25;
     var paddleHeight = 100;
-    var leftPaddle = makeRect(25, canvas.height / 2 - paddleHeight / 2, paddleWidth, paddleHeight, 5, 'white'); //Minor edit: Changed paddle color
-    var rightPaddle = makeRect(canvas.width - paddleWidth - 25, canvas.height / 2 - paddleHeight / 2, paddleWidth, paddleHeight, 5, 'white'); //Minor edit: Changed paddle color
+    var leftPaddle = makeRect(25, canvas.height / 2 - paddleHeight / 2, paddleWidth, paddleHeight, 5, 'white');
+    var rightPaddle = makeRect(canvas.width - paddleWidth - 25, canvas.height / 2 - paddleHeight / 2, paddleWidth, paddleHeight, 5, 'white');
 
     // Keep track of the score
     var leftScore = 0;
@@ -53,7 +50,7 @@
     // Create the ball
     var ballLength = 15;
     var ballSpeed = 2;
-    var ball = makeRect(0, 0, ballLength, ballLength, ballSpeed, 'red'); ////Minor edit: Changed ball color
+    var ball = makeRect(0, 0, ballLength, ballLength, ballSpeed, 'red');
 
     // Modify the ball object to have two speed properties, one for X and one for Y
     ball.sX = ballSpeed;
@@ -100,7 +97,15 @@
     }
 
     // Listen for keydown events
+    canvas.addEventListener('mouse', movePaddle);
+    
+    function movePaddle(event){
+        let rect = canvas.getBoundingClientRect();
+        leftPaddle.y = event.clientY - leftPaddle.heigh/2;
+    }
+
     canvas.addEventListener('keydown', function(e) {
+    console.log("keydown", e);
     if (e.keyCode === W) {
         keys.W = true;
     }
@@ -113,10 +118,12 @@
     if (e.keyCode === DOWN) {
         keys.DOWN = true;
     }
+
     });
 
     // Listen for keyup events
     canvas.addEventListener('keyup', function(e) {
+    console.log("keyup", e);
     if (e.keyCode === W) {
         keys.W = false;
     }
@@ -135,13 +142,14 @@
     function menu() {
     erase();
     // Show the menu
-    context.fillStyle = 'white'; //Minor edit: Changed color
+    context.fillStyle = "white";
     context.font = '24px Arial';
     context.textAlign = 'center';
     context.fillText('PONG', canvas.width / 2, canvas.height / 4);
     context.font = '18px Arial';
     context.fillText('Click to Start', canvas.width / 2, canvas.height / 3);
     context.font = '14px Arial';
+    
     context.textAlign = 'left';
     context.fillText('Player 1: W (up) and S (down)', 5, (canvas.height / 3) * 2);
     context.textAlign = 'right';
@@ -163,24 +171,23 @@
     // Show the end game screen
     function endGame() {
         erase();
-    context.fillStyle = 'white'; //Minor edit: Changed color
+    context.fillStyle = 'white';
     context.font = '24px Arial';
     context.textAlign = 'center';
     var winner = 1;
-    if (rightScore === 51 || leftScore <= -51) winner = 2; //Added negative numbers condition(FOR CHANGE 2).
+    if (rightScore === 15 || leftScore < -15) winner = 2;
     context.fillText('Player ' + winner + ' wins!', canvas.width/2, canvas.height/2);
     }
 
     // Clear the canvas
     function erase() {
-    context.fillStyle = 'black'; //Minor edit: Changed canvas color
+    context.fillStyle = 'black';
     context.fillRect(0, 0, canvas.width, canvas.height);
     }
 
     // Main draw loop
     function draw() {
     erase();
-
     // Move the paddles
     if (keys.W) {
         leftPaddle.y -= leftPaddle.s;
@@ -194,16 +201,13 @@
     if (keys.DOWN) {
         rightPaddle.y += rightPaddle.s;
     }
-
     // Move the ball
     ball.x += ball.sX;
     ball.y += ball.sY;
-
     // Bounce the ball off the top/bottom
     if (ball.y < 0 || ball.y + ball.h > canvas.height) {
         ball.sY *= -1;
     }
-
     // Don't let the paddles go off screen
     [leftPaddle, rightPaddle].forEach(function(paddle) {
         if (paddle.y < 0) {
@@ -213,29 +217,25 @@
         paddle.y = canvas.height - paddle.h;
         }
     });
-
     // Bounce the ball off the paddles
     if (ball.y + ball.h/2 >= leftPaddle.y && ball.y + ball.h/2 <= leftPaddle.y + leftPaddle.h) {
         if (ball.x <= leftPaddle.x + leftPaddle.w) {
-
-        //----------------------CHANGE 2.1: TWEAKED SCORES----------------------//
-        leftScore++; //Whenever ball hits paddle, score goes up by +1
         bounceBall();
+        leftScore++;
         }
     } 
     if (ball.y + ball.h/2 >= rightPaddle.y && ball.y + ball.h/2 <= rightPaddle.y + rightPaddle.h) {
         if (ball.x + ball.w >= rightPaddle.x) {
-        rightScore++; //Whenever ball hits paddle, score goes up by +1
         bounceBall();
+        rightScore++;
+
         }
     }
 
     // Score if the ball goes past a paddle
-    //----------------------CHANGE 1: TWEAKED PADDLES----------------------//
-
-    //WHEN BALL HITS, PADDLE SIZE CHANGES ACCORDING TO THE CONDITION
     if(rightScore > 3){
         leftPaddle.h = 80;
+        
     }
     if(rightScore > 6){
         leftPaddle.h = 75;
@@ -253,10 +253,6 @@
     if(leftScore > 9){
         rightPaddle.h = 60;
     }
-
-    //----------------------CHANGE 2.2: TWEAKED SCORES----------------------//
-    //Whenever player misses the ball, score decreases(it can also go in negative figure), and oppenent score increases.
-    
     if (ball.x < leftPaddle.x) {
         leftScore--;
         resetBall();
@@ -266,25 +262,20 @@
         resetBall();
         ball.sX *= -1;
     }
-    
+  
     // Draw the paddles and ball
     leftPaddle.draw();
     rightPaddle.draw();
     ball.draw();
-
     // Draw the scores
-    context.fillStyle = 'white'; //Minor edit: Changed score color
+    context.fillStyle = 'white';
     context.font = '24px Arial';
     context.textAlign = 'left';
     context.fillText('Score: ' + leftScore, 5, 24);
     context.textAlign = 'right';
     context.fillText('Score: ' + rightScore, canvas.width - 5, 24);
-    
     // End the game or keep going
-    //----------------------CHANGE 2.3: TWEAKED SCORES----------------------//
-    //Added negative numbers condition
-
-    if (leftScore === 51 || rightScore === 51 || leftScore <= -51 || rightScore <= -51) {
+    if (leftScore === 15 || rightScore === 15 || leftScore < -15 || rightScore < -15) {
         endGame();
     } else {
         window.requestAnimationFrame(draw);
@@ -294,4 +285,5 @@
     // Show the menu to start the game
     menu();
     canvas.focus();
+
 </script>
