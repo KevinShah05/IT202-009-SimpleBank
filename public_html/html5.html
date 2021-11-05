@@ -53,7 +53,7 @@
     // Create the ball
     var ballLength = 15;
     var ballSpeed = 2;
-    var ball = makeRect(0, 0, ballLength, ballLength, ballSpeed, 'red'); ////Minor edit: Changed ball color
+    var ball = makeRect(0, 0, ballLength, ballLength, ballSpeed, 'red'); //Minor edit: Changed ball color
 
     // Modify the ball object to have two speed properties, one for X and one for Y
     ball.sX = ballSpeed;
@@ -63,6 +63,7 @@
     if (Math.random() > 0.5) {
     ball.sX *= -1;
     }
+
     // Randomize initial direction
     if (Math.random() > 0.5) {
     ball.sY *= -1;
@@ -134,6 +135,7 @@
     // Show the menu
     function menu() {
     erase();
+
     // Show the menu
     context.fillStyle = 'white'; //Minor edit: Changed color
     context.font = '24px Arial';
@@ -167,7 +169,7 @@
     context.font = '24px Arial';
     context.textAlign = 'center';
     var winner = 1;
-    if (rightScore === 51 || leftScore <= -51) winner = 2; //Added negative numbers condition(FOR CHANGE 2).
+    if (rightScore === 51 || leftScore <= -25) winner = 2; //Added negative numbers condition(FOR CHANGE 2).
     context.fillText('Player ' + winner + ' wins!', canvas.width/2, canvas.height/2);
     }
 
@@ -284,7 +286,7 @@
     //----------------------CHANGE 2.3: TWEAKED SCORES----------------------//
     //Added negative numbers condition
 
-    if (leftScore === 51 || rightScore === 51 || leftScore <= -51 || rightScore <= -51) {
+    if (leftScore === 51 || rightScore === 51 || leftScore <= -25 || rightScore <= -25) {
         endGame();
     } else {
         window.requestAnimationFrame(draw);
