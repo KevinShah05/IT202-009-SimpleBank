@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 <?php
 $domain = $_SERVER["HTTP_HOST"];
 if (strpos($domain, ":")) {

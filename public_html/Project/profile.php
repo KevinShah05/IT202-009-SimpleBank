@@ -10,6 +10,7 @@ if (isset($_POST["save"])) {
     $username = se($_POST, "username", null, false);
 
     $params = [":email" => $email, ":username" => $username, ":id" => get_user_id()];
+    
     $db = getDB();
     $stmt = $db->prepare("UPDATE Users set email = :email, username = :username where id = :id");
     try {
@@ -86,6 +87,7 @@ if (isset($_POST["save"])) {
 $email = get_user_email();
 $username = get_username();
 ?>
+
 <form method="POST" onsubmit="return validate(this);">
     <div class="mb-3">
         <label for="email">Email</label>
