@@ -54,7 +54,7 @@ if(isset($_POST["submit"])){
 
 ?>
 <div> 
-    <h1>Register</h1>
+    
     <form method="POST" onsubmit="return validate(this);">
         <div>
             <lable for="email">Email: </lable>
