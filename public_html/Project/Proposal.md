@@ -28,7 +28,7 @@
     - Status: Completed
     - Direct Link: https://khs4-prod.herokuapp.com/Project/register.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/23)
     - Screenshots
       - Screenshot #1 (<img width="565" alt="Screen Shot 2021-11-11 at 1 12 14 PM" src="https://user-images.githubusercontent.com/90395978/141360766-09ad40bf-1159-4e9c-8c0a-ea073d5d129e.png">)
         - Screenshot #1 User will be able to register a new account
@@ -62,21 +62,21 @@
     - Status: Completed
     - Direct Link: https://khs4-prod.herokuapp.com/Project/login.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/23)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 User can login with email or username
+      - Screenshot #1 (<img width="467" alt="Screen Shot 2021-11-11 at 4 00 02 PM" src="https://user-images.githubusercontent.com/90395978/141368461-3959fafc-be39-468d-bdac-0d6b21ebe56d.png">)
+        - Screenshot #1 User will be able to login to their account
 
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="828" alt="Screen Shot 2021-11-11 at 4 01 19 PM" src="https://user-images.githubusercontent.com/90395978/141368589-028c1b04-e309-48bb-b57a-73f6234dbac1.png">)
         - Screenshot #2 Password is required
 
-      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #3 (<img width="522" alt="Screen Shot 2021-11-11 at 4 03 06 PM" src="https://user-images.githubusercontent.com/90395978/141368785-a420e874-f84e-4896-bebc-231c0c88c558.png">)
         - Screenshot #3 User should see friendly error messages when an account either doesn’t exist or if passwords don’t match
       
-      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #4 (<img width="467" alt="Screen Shot 2021-11-11 at 4 00 02 PM" src="https://user-images.githubusercontent.com/90395978/141368461-3959fafc-be39-468d-bdac-0d6b21ebe56d.png">)
         - Screenshot #4 User will be directed to a landing page upon login
 
-      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #5 (<img width="482" alt="Screen Shot 2021-11-11 at 4 06 59 PM" src="https://user-images.githubusercontent.com/90395978/141369190-1d06438d-6cf6-46f8-89b3-31a12dca7ce3.png"> <img width="522" alt="Screen Shot 2021-11-11 at 4 03 06 PM" src="https://user-images.githubusercontent.com/90395978/141368785-a420e874-f84e-4896-bebc-231c0c88c558.png">)
         - Screenshot #5 This is a protected page (non-logged in users shouldn’t have access)
 
 
@@ -86,10 +86,16 @@
     - Status: Completed
     - Direct Link: https://khs4-prod.herokuapp.com/Project/logout.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/23)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 (<img width="485" alt="Screen Shot 2021-11-11 at 4 13 37 PM" src="https://user-images.githubusercontent.com/90395978/141370019-f6d1ea72-dc5a-43a5-ad3c-30960da6d65e.png">)
+        - Screenshot #1 Logging out will redirect to login page
+
+      - Screenshot #2 (<img width="485" alt="Screen Shot 2021-11-11 at 4 13 37 PM" src="https://user-images.githubusercontent.com/90395978/141370019-f6d1ea72-dc5a-43a5-ad3c-30960da6d65e.png">)
+        - Screenshot #2 User should see a message that they’ve successfully logged out
+
+      - Screenshot #3 (<img width="532" alt="Screen Shot 2021-11-11 at 4 15 40 PM" src="https://user-images.githubusercontent.com/90395978/141370255-49920171-2b39-48e4-9e40-b2f0a5b4a3d3.png">)
+        - Screenshot #3 Session should be destroyed (so the back button doesn’t allow them access back in). This is the Screenshot of after pressing back button
 
   - [x] \(11/10/2021 of completion) Basic security rules implemented
   -  List of Evidence of Feature Completion
@@ -106,50 +112,76 @@
     - Status: Completed
     - Direct Link: https://khs4-prod.herokuapp.com/Project/register.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/29)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 (<img width="764" alt="Screen Shot 2021-11-11 at 4 30 44 PM" src="https://user-images.githubusercontent.com/90395978/141372014-36e737f6-f74e-4762-a702-07a60fb62d57.png">)
+        - Screenshot #1 Have a Roles table
 
+      - Screenshot #2 (<img width="741" alt="Screen Shot 2021-11-11 at 4 31 46 PM" src="https://user-images.githubusercontent.com/90395978/141372114-1f4e4752-3884-41c3-81df-2397f7b6c99a.png">)
+        - Screenshot #2 Have a User Roles table
+
+      - Screenshot #3 (<img width="516" alt="Screen Shot 2021-11-11 at 4 33 56 PM" src="https://user-images.githubusercontent.com/90395978/141372350-86ab7b75-b606-4fee-93a1-3676f6bfdefb.png">)
+        - Screenshot #3 Include a function to check if a user has a specific role
+    
   - [x] \(11/10/2021 of completion) Site should have basic styles/theme applied; everything should be styled
   -  List of Evidence of Feature Completion
     - Status: Completed
     - Direct Link: https://khs4-prod.herokuapp.com/Project/register.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/23)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 (<img width="459" alt="Screen Shot 2021-11-11 at 4 38 09 PM" src="https://user-images.githubusercontent.com/90395978/141372788-93a9ba9d-77ae-431d-a88b-c32dd6a5a3e3.png">)
+        - Screenshot #1 basic styles/theme applied, Register page
+      
+      - Screenshot #1 (<img width="481" alt="Screen Shot 2021-11-11 at 4 38 36 PM" src="https://user-images.githubusercontent.com/90395978/141372825-49188bc5-8dcf-47c9-ba2f-18e2bf88075e.png">)
+        - Screenshot #1 basic styles/theme applied, Login page
+      
+      - Screenshot #1 (<img width="458" alt="Screen Shot 2021-11-11 at 4 39 09 PM" src="https://user-images.githubusercontent.com/90395978/141372894-24611d2d-4d07-4404-8989-5a26a428ed32.png">)
+        - Screenshot #1 basic styles/theme applied, Home page
+
+      - Screenshot #1 (<img width="464" alt="Screen Shot 2021-11-11 at 4 41 34 PM" src="https://user-images.githubusercontent.com/90395978/141373162-aa2aca9c-32b3-41c4-95e7-1d4625a683f9.png">)
+        - Screenshot #1 basic styles/theme applied, logout page
+      
+      - Screenshot #1 (<img width="521" alt="Screen Shot 2021-11-11 at 4 41 14 PM" src="https://user-images.githubusercontent.com/90395978/141373115-5c97f8ec-501d-4f3f-b598-d5b7bc82163f.png">)
+        - Screenshot #1 basic styles/theme applied, profile page
 
   - [x] \(11/10/2021 of completion) Any output messages/errors should be “user friendly”
   -  List of Evidence of Feature Completion
     - Status: Completed
     - Direct Link: https://khs4-prod.herokuapp.com/Project/register.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/25)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 (<img width="330" alt="Screen Shot 2021-11-11 at 4 45 15 PM" src="https://user-images.githubusercontent.com/90395978/141373568-f56c27da-4c49-4f5b-8b09-a6a8e5187eb6.png">)
+        - Screenshot #1 User Friendly Messages: Logout
+      - Screenshot #2 (<img width="526" alt="Screen Shot 2021-11-11 at 4 46 09 PM" src="https://user-images.githubusercontent.com/90395978/141373662-2d56b8c6-77db-4d0a-b0eb-cd959544efce.png">)
+        - Screenshot #2 User Friendly Messages: Invalid password
 
   - [x] \(11/10/2021 of completion) User will be able to see their profile
   -  List of Evidence of Feature Completion
     - Status: Completed
     - Direct Link: https://khs4-prod.herokuapp.com/Project/profile.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/26)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 (<img width="499" alt="Screen Shot 2021-11-11 at 4 51 29 PM" src="https://user-images.githubusercontent.com/90395978/141374257-229434f4-818e-4762-b1d8-95b1cb3286ea.png">)
+        - Screenshot #1 Email, username, etc
 
   - [x] \(11/10/2021 of completion) User will be able to edit their profile
   -  List of Evidence of Feature Completion
     - Status: Completed
     - Direct Link: https://khs4-prod.herokuapp.com/Project/profile.php
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/26)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 (<img width="511" alt="Screen Shot 2021-11-11 at 4 54 51 PM" src="https://user-images.githubusercontent.com/90395978/141374607-8df84f49-9d9e-487f-be97-199cf1ae5f19.png">)
+        - Screenshot #1 Changing username/email should properly check to see if it’s available before allowing the change Used the existing email
+
+      - Screenshot #2 (<img width="493" alt="Screen Shot 2021-11-11 at 4 58 46 PM" src="https://user-images.githubusercontent.com/90395978/141375009-6beb157c-c30f-471b-972c-38c13583d897.png">)
+        - Screenshot #2 Changing username/email should properly check to see if it’s available before allowing the change Used the existing Username
+      
+      - Screenshot #3 (<img width="472" alt="Screen Shot 2021-11-11 at 5 03 14 PM" src="https://user-images.githubusercontent.com/90395978/141375497-3c741db3-d6b2-4e57-8e97-39ec371f3ac7.png">)
+        - Screenshot #3 Allow password reset (only if the existing correct password is provided)
   
 - Milestone 2
 - Milestone 3
