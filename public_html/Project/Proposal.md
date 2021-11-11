@@ -20,7 +20,6 @@
         - Screenshot #1 description explaining what you're trying to show
 ### End Line item / Feature Template
 --> 
-
 ### Proposal Checklist and Evidence
 - Milestone 1
   - [x] \(11/10/2021 of completion) User will be able to register a new account
@@ -53,7 +52,7 @@
 
       - Screenshot #8 (<img width="502" alt="Screen Shot 2021-11-11 at 3 25 53 PM" src="https://user-images.githubusercontent.com/90395978/141364329-b5ea9f47-9da4-471a-af6b-7f9c772c6131.png">)
         - Screenshot #8 Email should be unique and System should let user know if username or email is taken and allow the user to correct the error without wiping/clearing the form
-      
+    
       - Screenshot #9 (<img width="537" alt="Screen Shot 2021-11-11 at 3 24 55 PM" src="https://user-images.githubusercontent.com/90395978/141364214-398f3ba0-cc29-4efc-a34f-18e1c7a285f6.png">)
         - Screenshot #9 Username should be unique, and System should let user know if username or email is taken and allow the user to correct the error without wiping/clearing the form
 
