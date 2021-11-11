@@ -19,10 +19,11 @@ if(isset($_POST["submit"])){
         flash("Passwords don't match","warning");
         $isValid = false;
     } 
-    if (strlen($password) < 3) {
-        flash("Password must be 3 or more characters", "warning");
+    if (strlen($password) < 6) {
+        flash("Password must be 6 or more characters", "warning");
         $isValid = false; 
     }
+   
     
     $email = sanitize_email($email);
     if(!is_valid_email($email)){
