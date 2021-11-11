@@ -44,7 +44,7 @@ if(isset($_POST["submit"])){
             die(header("Location: login.php"));
 
         } catch(PDOException $e) {
-            //$email = se($_POST, "email", "", false);
+            
             $code = se($e->errorInfo, 0, "00000", false);
             if ($code === "23000") {
                 flash("An account with this email already exists", "danger");
