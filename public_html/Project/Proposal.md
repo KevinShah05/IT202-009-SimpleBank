@@ -65,7 +65,7 @@
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 User can login with email or username
+        - Screenshot #1 User can login with email or usernam
 
       - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #2 Password is required
