@@ -1,8 +1,6 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link rel="stylesheet" href="styles.css">
-
 <?php
 $domain = $_SERVER["HTTP_HOST"];
 if (strpos($domain, ":")) {
