@@ -1,5 +1,5 @@
-# Project Name: Simple Arcade
-## Project Summary: This project will create a simple Arcade with scoreboards and competitions based on the implemented game.
+# Project Name: Simple Bank
+## Project Summary: This project will create a bank simulation for users. They’ll be able to have various accounts, do standard bank functions like deposit, withdraw, internal (user’s accounts)/external(other user’s accounts) transfers, and creating/closing accounts.
 ## Github Link: (Prod Branch of Project Folder)
 ## Project Board Link: 
 ## Website Link: (Heroku Prod of Project folder)
