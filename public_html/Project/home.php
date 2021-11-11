@@ -9,6 +9,7 @@ if(!is_logged_in()){
 <h1>Home</h1>
 <h5>Welcome, <?php se(get_username()); ?></h5>
 
+
 <?php
 require(__DIR__ . "/../../partials/flash.php");
 ?>
