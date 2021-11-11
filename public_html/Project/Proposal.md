@@ -104,8 +104,8 @@
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 (<img width="946" alt="Screen Shot 2021-11-11 at 5 17 43 PM" src="https://user-images.githubusercontent.com/90395978/141377086-aa2694c4-d45d-4432-8d0a-5b154c2fc414.png">)
+        - Screenshot #1 Basic security rules implemented:
 
   - [x] \(11/10/2021 of completion) Basic Roles implemented
   -  List of Evidence of Feature Completion
