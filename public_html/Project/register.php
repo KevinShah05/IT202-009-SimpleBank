@@ -1,5 +1,6 @@
 <?php
 require(__DIR__ . "/../../partials/nav.php");
+reset_session();
 if(isset($_POST["submit"])){
     $email = se($_POST, "email", null, false);
     $password = trim(se($_POST, "password", null, false));   
@@ -19,10 +20,11 @@ if(isset($_POST["submit"])){
         flash("Passwords don't match","warning");
         $isValid = false;
     } 
-    if (strlen($password) < 3) {
-        flash("Password must be 3 or more characters", "warning");
+    if (strlen($password) < 6) {
+        flash("Password must be 6 or more characters", "warning");
         $isValid = false; 
     }
+   
     
     $email = sanitize_email($email);
     if(!is_valid_email($email)){
@@ -42,9 +44,11 @@ if(isset($_POST["submit"])){
             die(header("Location: login.php"));
 
         } catch(PDOException $e) {
+            
             $code = se($e->errorInfo, 0, "00000", false);
             if ($code === "23000") {
                 flash("An account with this email already exists", "danger");
+                
             } else {
                 echo "<pre>" . var_export($e->errorInfo, true) . "</pre>";
             }    
@@ -56,7 +60,7 @@ if(isset($_POST["submit"])){
 
 ?>
 <div> 
-    <h1>Register</h1>
+    
     <form method="POST" onsubmit="return validate(this);">
         <div>
             <lable for="email">Email: </lable>
