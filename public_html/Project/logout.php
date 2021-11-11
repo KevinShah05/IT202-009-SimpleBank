@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 session_unset();
 session_destroy();
 //header("Location: login.php");
@@ -10,3 +11,10 @@ flash("You have been logged out", "success");
 
 //echo "<pre>" .var_export($_SESSION, true) . "</pre>";
 die(header("Location: login.php"));
+
+require(__DIR__ . "/../../lib/functions.php");
+reset_session();
+
+flash("Successfully logged out", "success");
+header("Location: login.php");
+

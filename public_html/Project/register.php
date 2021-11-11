@@ -1,5 +1,6 @@
 <?php
 require(__DIR__ . "/../../partials/nav.php");
+reset_session();
 if(isset($_POST["submit"])){
     $email = se($_POST, "email", null, false);
     $password = trim(se($_POST, "password", null, false));   
@@ -38,8 +39,10 @@ if(isset($_POST["submit"])){
         try {
 
             $stmt->execute([":email" => $email, ":password" => $hash, ":username"=>$username]);
+
             flash("You have succssfully registered, please login");
             die(header("Location: login.php"));
+
         } catch(PDOException $e) {
             $code = se($e->errorInfo, 0, "00000", false);
             if ($code === "23000") {
