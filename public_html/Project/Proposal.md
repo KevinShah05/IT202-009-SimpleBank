@@ -2,7 +2,7 @@
 ## Project Summary: This project will create a bank simulation for users. They’ll be able to have various accounts, do standard bank functions like deposit, withdraw, internal (user’s accounts)/external(other user’s accounts) transfers, and creating/closing accounts.
 ## Github Link: (Prod Branch of Project Folder)
 ## Project Board Link: https://github.com/KevinShah05/IT202-009/projects/2
-## Website Link: (Heroku Prod of Project folder)
+## Website Link: (https://khs4-prod.herokuapp.com/Project/register.php)
 ## Your Name: Kevin Shah
 
 <!--
