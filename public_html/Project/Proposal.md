@@ -185,13 +185,9 @@
   
 - Milestone 2
 
-  - [x] \(11/29/2021 of completion) Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
-  -  List of Evidence of Feature Completion
-    - Status: Completed
-
   - [ ] \(mm/dd/yyyy of completion) Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Status: Completed
 
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
@@ -216,7 +212,6 @@
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-
         - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements)
       
       - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
@@ -229,7 +224,6 @@
   - [x] \(11/29/2021 of completion) Create the Transactions table (see reference below)
   -  List of Evidence of Feature Completion
     - Status: Completed
-
         - Screenshot #1 description explaining what you're trying to show
 
   - [ ] \(mm/dd/yyyy of completion) Create the Transactions table (see reference below)
@@ -272,13 +266,11 @@
   - [ ] \(mm/dd/yyyy of completion) User will be able to create a checking account
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
->>>>>>> 4cbd8eaa7f8a049e615d95dd1ab5e7eb647e4859
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-<<<<<<< HEAD
         - Screenshot #1	User will be able to create a checking account
 
       - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
