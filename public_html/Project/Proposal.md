@@ -184,54 +184,134 @@
         - Screenshot #3 Allow password reset (only if the existing correct password is provided)
   
 - Milestone 2
+
+  - [x] \(11/29/2021 of completion) Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
+  -  List of Evidence of Feature Completion
+    - Status: Completed
+
   - [ ] \(mm/dd/yyyy of completion) Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
+
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+
+        - Screenshot #1 •	Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
+      
+  - [x] \(11/29/2021 of completion) Project setup steps:
+  -  List of Evidence of Feature Completion
+    - Status: Completed
+
         - Screenshot #1 description explaining what you're trying to show
       
   - [ ] \(mm/dd/yyyy of completion) Project setup steps:
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
+
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+
+        - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements)
+      
+      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #2	Create a world account in the Accounts table created below (if it doesn’t exist)
+          - Account_number must be “000000000000”
+            User_id must be the id of the system user
+            Account type must be “world”
+
+
+  - [x] \(11/29/2021 of completion) Create the Transactions table (see reference below)
+  -  List of Evidence of Feature Completion
+    - Status: Completed
+
         - Screenshot #1 description explaining what you're trying to show
 
   - [ ] \(mm/dd/yyyy of completion) Create the Transactions table (see reference below)
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
+
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+
+        - Screenshot #1	Create the Transactions table
+      
+  - [x] \(11/29/2021 of completion) Dashboard page
+  -  List of Evidence of Feature Completion
+    - Status: Completed
         - Screenshot #1 description explaining what you're trying to show
       
   - [ ] \(mm/dd/yyyy of completion) Dashboard page
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
+
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 Will have links for Create Account, My Accounts, Deposit, Withdraw Transfer, Profile
+      
+      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #2 Links that don’t have pages yet should just have href=”#”, you’ll update them later
+
+  - [x] \(11/29/2021 of completion) User will be able to create a checking account
+  -  List of Evidence of Feature Completion
+    - Status: Completed
+
         - Screenshot #1 description explaining what you're trying to show
 
   - [ ] \(mm/dd/yyyy of completion) User will be able to create a checking account
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
+>>>>>>> 4cbd8eaa7f8a049e615d95dd1ab5e7eb647e4859
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+<<<<<<< HEAD
+        - Screenshot #1	User will be able to create a checking account
+
+      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #2	Option 2: Generate the number based on the id column; requires inserting a null first to get the last insert id, then update the record immediately after
+
+      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #3	User will be able to create a checking account
+      
+      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #4	System will associate the account to the user
+      
+      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #5	Account type will be set as checking
+      
+      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #6	Will require a minimum deposit of $5 (from the world account)
+      
+      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #7	Account Balance will be updated based on SUM of BalanceChange of AccountSrc
+
+      - Screenshot #8 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #8	User will see user-friendly error messages when appropriate
+      
+      - Screenshot #9 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #9	User will see user-friendly success message when account is created successfully
+      
+      - Screenshot #10 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #10 Redirect user to their Accounts page
+      
+
+  - [x] \(11/29/2021 of completion) User will be able to list their accounts
+  -  List of Evidence of Feature Completion
+    - Status: Completed
         - Screenshot #1 description explaining what you're trying to show
 
   - [ ] \(mm/dd/yyyy of completion) User will be able to list their accounts
@@ -242,6 +322,14 @@
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 User will be able to list their accounts
+      
+      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #2 Show account number, account type and balance
+  
+  - [x] \(11/29/2021 of completion) User will be able to click an account for more information (a.ka. Transaction History page)
+  -  List of Evidence of Feature Completion
+    - Status: Completed
         - Screenshot #1 description explaining what you're trying to show
   
   - [ ] \(mm/dd/yyyy of completion) User will be able to click an account for more information (a.ka. Transaction History page)
@@ -252,6 +340,18 @@
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 User will be able to click an account for more information (a.ka. Transaction History page)
+      
+      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #2 Show account number, account type, balance, opened/created date
+
+      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #3 Show transaction history (from Transactions table)
+
+  - [x] \(11/29/2021 of completion) User will be able to deposit/withdraw from their account(s)
+  -  List of Evidence of Feature Completion
+    - Status: Completed
+
         - Screenshot #1 description explaining what you're trying to show
 
   - [ ] \(mm/dd/yyyy of completion) User will be able to deposit/withdraw from their account(s)
@@ -262,7 +362,53 @@
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+
+        - Screenshot #1 User will be able to deposit/withdraw from their account(s)
+      
+      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #2 Form should have a dropdown of their accounts to pick from
+      
+      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #3 World account should not be in the dropdown
+
+      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #4 Form should have a field to enter a positive numeric value
+      
+      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #5 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #6 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #7 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #8 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #8 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #9 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #9 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #10 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #10 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #11 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #11 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #12 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #12 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #13 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #13 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #14 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #14 User will be able to deposit/withdraw from their account(s)
+
+      - Screenshot #15 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #15 User will be able to deposit/withdraw from their account(s)
+=======
         - Screenshot #1 description explaining what you're trying to show
+
 
 - Milestone 3
   - [ ] \(mm/dd/yyyy of completion) User will be able to transfer between their accounts
