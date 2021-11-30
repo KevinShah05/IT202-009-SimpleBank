@@ -20,7 +20,6 @@
   <input type="number" min="5.00" name="balance" value="<?php echo $result["balance"];?>" />
 	<input type="submit" name="save" value="Create"/>
 </form>
-
 <?php 
 
 if(isset($_POST["save"])){
