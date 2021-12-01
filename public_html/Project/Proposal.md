@@ -267,10 +267,6 @@
       
       - Screenshot #9 (<img width="1115" alt="Screen Shot 2021-11-30 at 7 40 44 PM" src="https://user-images.githubusercontent.com/90395978/144150954-2d5f1e8a-2f27-490e-b3ea-1f04b86ef975.png">)
         - Screenshot #9	User will see user-friendly success message when account is created successfully
-      
-      - Screenshot #10 (<img width="1145" alt="Screen Shot 2021-11-30 at 7 42 53 PM" src="https://user-images.githubusercontent.com/90395978/144151168-9ae1090f-efd2-4222-aec2-7ee481eb4d36.png">)
-        - Screenshot #10 Redirect user to Accounts page
-      
 
   - [x] \(11/29/2021 of completion) User will be able to list their accounts
   -  List of Evidence of Feature Completion
@@ -279,10 +275,10 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 41 32 PM" src="https://user-images.githubusercontent.com/90395978/144145714-b61f0efc-87dc-426a-8d19-0c1e6dfa283b.png">)
         - Screenshot #1 User will be able to list their accounts
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 41 32 PM" src="https://user-images.githubusercontent.com/90395978/144145714-b61f0efc-87dc-426a-8d19-0c1e6dfa283b.png">)
         - Screenshot #2 Show account number, account type and balance
   
   - [x] \(11/29/2021 of completion) User will be able to click an account for more information (a.ka. Transaction History page)
@@ -292,13 +288,13 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="1142" alt="Screen Shot 2021-11-30 at 8 04 15 PM" src="https://user-images.githubusercontent.com/90395978/144153012-fbd70dad-887c-43c3-a1e7-e4c7d5ac47e3.png">)
         - Screenshot #1 User will be able to click an account for more information (a.ka. Transaction History page)
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1142" alt="Screen Shot 2021-11-30 at 8 04 15 PM" src="https://user-images.githubusercontent.com/90395978/144153012-fbd70dad-887c-43c3-a1e7-e4c7d5ac47e3.png">)
         - Screenshot #2 Show account number, account type, balance, opened/created date
 
-      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #3 ()
         - Screenshot #3 Show transaction history (from Transactions table)
 
   - [x] \(11/29/2021 of completion) User will be able to deposit/withdraw from their account(s)
