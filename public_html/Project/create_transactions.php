@@ -38,7 +38,7 @@ $accounts = getDropDown();
         </div>
 
         <label>Amount</label> 
-        <input type="number" min="1.00" name="amount">
+        <input type="number" min="5.00" name="amount">
 
         <label>Action</label> 
         <select name="action" id="type" placeholder="transfer" onclick="showTransferForm()">

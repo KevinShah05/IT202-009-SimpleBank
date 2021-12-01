@@ -188,35 +188,21 @@
   - [x] \(11/29/2021 of completion) Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
   -  List of Evidence of Feature Completion
     - Status: Completed
-
-  - [ ] \(mm/dd/yyyy of completion) Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-
+      - Screenshot #1 (<img width="677" alt="Screen Shot 2021-11-29 at 11 01 45 PM" src="https://user-images.githubusercontent.com/90395978/143983748-2c54398d-2b01-4567-93a4-ab95e2ef1037.png">)
         - Screenshot #1 •	Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
-      
-  - [x] \(11/29/2021 of completion) Project setup steps:
-  -  List of Evidence of Feature Completion
-    - Status: Completed
-
-        - Screenshot #1 description explaining what you're trying to show
-      
+    
   - [ ] \(mm/dd/yyyy of completion) Project setup steps:
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
-
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-
         - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements)
       
       - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
@@ -229,30 +215,16 @@
   - [x] \(11/29/2021 of completion) Create the Transactions table (see reference below)
   -  List of Evidence of Feature Completion
     - Status: Completed
-
-        - Screenshot #1 description explaining what you're trying to show
-
-  - [ ] \(mm/dd/yyyy of completion) Create the Transactions table (see reference below)
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-
         - Screenshot #1	Create the Transactions table
       
   - [x] \(11/29/2021 of completion) Dashboard page
   -  List of Evidence of Feature Completion
     - Status: Completed
-        - Screenshot #1 description explaining what you're trying to show
-      
-  - [ ] \(mm/dd/yyyy of completion) Dashboard page
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
@@ -266,19 +238,11 @@
   - [x] \(11/29/2021 of completion) User will be able to create a checking account
   -  List of Evidence of Feature Completion
     - Status: Completed
-
-        - Screenshot #1 description explaining what you're trying to show
-
-  - [ ] \(mm/dd/yyyy of completion) User will be able to create a checking account
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
->>>>>>> 4cbd8eaa7f8a049e615d95dd1ab5e7eb647e4859
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-<<<<<<< HEAD
         - Screenshot #1	User will be able to create a checking account
 
       - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
@@ -312,11 +276,6 @@
   - [x] \(11/29/2021 of completion) User will be able to list their accounts
   -  List of Evidence of Feature Completion
     - Status: Completed
-        - Screenshot #1 description explaining what you're trying to show
-
-  - [ ] \(mm/dd/yyyy of completion) User will be able to list their accounts
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
@@ -351,12 +310,6 @@
   - [x] \(11/29/2021 of completion) User will be able to deposit/withdraw from their account(s)
   -  List of Evidence of Feature Completion
     - Status: Completed
-
-        - Screenshot #1 description explaining what you're trying to show
-
-  - [ ] \(mm/dd/yyyy of completion) User will be able to deposit/withdraw from their account(s)
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
       - PR link #1 (repeat as necessary)
@@ -406,51 +359,11 @@
 
       - Screenshot #15 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #15 User will be able to deposit/withdraw from their account(s)
-=======
+
         - Screenshot #1 description explaining what you're trying to show
 
 
 - Milestone 3
-  - [ ] \(mm/dd/yyyy of completion) User will be able to transfer between their accounts
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-  
-  - [ ] \(mm/dd/yyyy of completion) Transaction History page
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-  
-  - [ ] \(mm/dd/yyyy of completion) User’s profile page should record/show First and Last name
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-  
-  - [ ] \(mm/dd/yyyy of completion) User will be able to transfer funds to another user’s account
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-
 - Milestone 4
 ### Intructions
 #### Don't delete this
