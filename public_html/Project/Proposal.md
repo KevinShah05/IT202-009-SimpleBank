@@ -203,8 +203,8 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png"> <img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png">)
-        - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements). User does not have access to accounts if they're not logged in.
+      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png"> <img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png"> <img width="1117" alt="Screen Shot 2021-11-30 at 9 35 07 PM" src="https://user-images.githubusercontent.com/90395978/144161728-8bd98659-cd53-4bc2-8a88-b9eaf130b416.png">)
+        - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements). User does not have access to accounts if they're not logged in and does not have correct role to access.
       
       - Screenshot #2 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 41 32 PM" src="https://user-images.githubusercontent.com/90395978/144145714-b61f0efc-87dc-426a-8d19-0c1e6dfa283b.png">)
         - Screenshot #2	Create a world account in the Accounts table created below (if it doesn’t exist)
@@ -243,30 +243,29 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (<img width="544" alt="Screen Shot 2021-11-30 at 6 58 12 PM" src="https://user-images.githubusercontent.com/90395978/144147184-6a52eb28-3a17-42df-98ae-1b9adfd3a6a8.png">)
+      - Screenshot #1 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
         - Screenshot #1	User will be able to create a checking account
 
-      - Screenshot #2 (<img width="544" alt="Screen Shot 2021-11-30 at 6 58 12 PM" src="https://user-images.githubusercontent.com/90395978/144147184-6a52eb28-3a17-42df-98ae-1b9adfd3a6a8.png">)
+      - Screenshot #2 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
         - Screenshot #2	System will generate a unique 12 digit account number
 
+      - Screenshot #3 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
+        - Screenshot #3	System will associate the account to the user. Owner ID.
       
-      - Screenshot #4 (<img width="544" alt="Screen Shot 2021-11-30 at 6 58 12 PM" src="https://user-images.githubusercontent.com/90395978/144147184-6a52eb28-3a17-42df-98ae-1b9adfd3a6a8.png">)
-        - Screenshot #4	System will associate the account to the user. Owner ID.
+      - Screenshot #4 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
+        - Screenshot #4	Account type will be set as checking
       
-      - Screenshot #5 (<img width="544" alt="Screen Shot 2021-11-30 at 6 58 12 PM" src="https://user-images.githubusercontent.com/90395978/144147184-6a52eb28-3a17-42df-98ae-1b9adfd3a6a8.png">)
-        - Screenshot #5	Account type will be set as checking
+      - Screenshot #5 (<img width="1148" alt="Screen Shot 2021-11-30 at 7 12 29 PM" src="https://user-images.githubusercontent.com/90395978/144148481-17f982f0-4021-4d69-8b50-3bed9e9c40d5.png">)
+        - Screenshot #5	Will require a minimum deposit of $5 (from the world account)
       
-      - Screenshot #6 (<img width="1148" alt="Screen Shot 2021-11-30 at 7 12 29 PM" src="https://user-images.githubusercontent.com/90395978/144148481-17f982f0-4021-4d69-8b50-3bed9e9c40d5.png">)
-        - Screenshot #6	Will require a minimum deposit of $5 (from the world account)
-      
-      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #7	Account Balance will be updated based on SUM of BalanceChange of AccountSrc
+      - Screenshot #6 (<img width="1117" alt="Screen Shot 2021-11-30 at 10 29 13 PM" src="https://user-images.githubusercontent.com/90395978/144166971-d003eef0-6413-4ea6-986d-6a1225d41b4f.png">)
+        - Screenshot #6	Account Balance will be updated based on SUM of BalanceChange of AccountSrc
 
-      - Screenshot #8 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #8	User will see user-friendly error messages when appropriate
+      - Screenshot #7 (<img width="1117" alt="Screen Shot 2021-11-30 at 9 35 07 PM" src="https://user-images.githubusercontent.com/90395978/144161728-8bd98659-cd53-4bc2-8a88-b9eaf130b416.png">)
+        - Screenshot #7	User will see user-friendly error messages when appropriate
       
-      - Screenshot #9 (<img width="1115" alt="Screen Shot 2021-11-30 at 7 40 44 PM" src="https://user-images.githubusercontent.com/90395978/144150954-2d5f1e8a-2f27-490e-b3ea-1f04b86ef975.png">)
-        - Screenshot #9	User will see user-friendly success message when account is created successfully
+      - Screenshot #8 (<img width="1115" alt="Screen Shot 2021-11-30 at 7 40 44 PM" src="https://user-images.githubusercontent.com/90395978/144150954-2d5f1e8a-2f27-490e-b3ea-1f04b86ef975.png">)
+        - Screenshot #8	User will see user-friendly success message when account is created successfully
 
   - [x] \(11/29/2021 of completion) User will be able to list their accounts
   -  List of Evidence of Feature Completion
@@ -275,10 +274,10 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 41 32 PM" src="https://user-images.githubusercontent.com/90395978/144145714-b61f0efc-87dc-426a-8d19-0c1e6dfa283b.png">)
+      - Screenshot #1 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
         - Screenshot #1 User will be able to list their accounts
       
-      - Screenshot #2 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 41 32 PM" src="https://user-images.githubusercontent.com/90395978/144145714-b61f0efc-87dc-426a-8d19-0c1e6dfa283b.png">)
+      - Screenshot #2 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
         - Screenshot #2 Show account number, account type and balance
   
   - [x] \(11/29/2021 of completion) User will be able to click an account for more information (a.ka. Transaction History page)
@@ -294,7 +293,7 @@
       - Screenshot #2 (<img width="1142" alt="Screen Shot 2021-11-30 at 8 04 15 PM" src="https://user-images.githubusercontent.com/90395978/144153012-fbd70dad-887c-43c3-a1e7-e4c7d5ac47e3.png">)
         - Screenshot #2 Show account number, account type, balance, opened/created date
 
-      - Screenshot #3 ()
+      - Screenshot #3 (<img width="958" alt="Screen Shot 2021-11-30 at 9 39 52 PM" src="https://user-images.githubusercontent.com/90395978/144162166-b9811c01-a4f0-4c0a-8eae-77abe2b4b2e2.png">)
         - Screenshot #3 Show transaction history (from Transactions table)
 
   - [x] \(11/29/2021 of completion) User will be able to deposit/withdraw from their account(s)
@@ -304,53 +303,39 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-
+      - Screenshot #1 (<img width="1113" alt="Screen Shot 2021-11-30 at 9 53 41 PM" src="https://user-images.githubusercontent.com/90395978/144163560-fb15698f-7049-4c23-bc38-088f4c16f503.png"> <img width="1110" alt="Screen Shot 2021-11-30 at 9 50 16 PM" src="https://user-images.githubusercontent.com/90395978/144163218-8f08d85c-6bec-487a-876c-d3d9167c928a.png">)
         - Screenshot #1 User will be able to deposit/withdraw from their account(s)
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1438" alt="Screen Shot 2021-11-30 at 9 57 26 PM" src="https://user-images.githubusercontent.com/90395978/144163972-fc2dfc97-af62-4930-81ca-7a7385d62663.png">)
         - Screenshot #2 Form should have a dropdown of their accounts to pick from
       
-      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #3 (<img width="1438" alt="Screen Shot 2021-11-30 at 9 57 26 PM" src="https://user-images.githubusercontent.com/90395978/144163972-fc2dfc97-af62-4930-81ca-7a7385d62663.png">)
         - Screenshot #3 World account should not be in the dropdown
 
-      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #4 (<img width="1440" alt="Screen Shot 2021-11-30 at 10 42 46 PM" src="https://user-images.githubusercontent.com/90395978/144168262-741c7cd8-8196-4ef0-86a9-c9310c808752.png">)
         - Screenshot #4 Form should have a field to enter a positive numeric value
       
-      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #5 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #6 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 12 20 PM" src="https://user-images.githubusercontent.com/90395978/144165465-0078eaf1-a4df-4292-8b5e-3dc8dfe08d27.png">)
+        - Screenshot #6 For withdraw, make sure they can’t withdraw more money than the account has
 
-      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #6 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #7 (<img width="1117" alt="Screen Shot 2021-11-30 at 10 29 13 PM" src="https://user-images.githubusercontent.com/90395978/144166971-d003eef0-6413-4ea6-986d-6a1225d41b4f.png">)
+        - Screenshot #7 After each transaction pair, make sure to update the Account Balance by SUMing the BalanceChange for the AccountSrc
 
-      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #7 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #8 (<img width="1113" alt="Screen Shot 2021-11-30 at 9 53 41 PM" src="https://user-images.githubusercontent.com/90395978/144163560-fb15698f-7049-4c23-bc38-088f4c16f503.png">)
+        - Screenshot #8 Deposits will be from the “world account”
 
-      - Screenshot #8 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #8 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #9 (<img width="1110" alt="Screen Shot 2021-11-30 at 9 50 16 PM" src="https://user-images.githubusercontent.com/90395978/144163218-8f08d85c-6bec-487a-876c-d3d9167c928a.png">)
+        - Screenshot #9 Withdraws will be to the “world account”
 
-      - Screenshot #9 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #9 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #10 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 16 49 PM" src="https://user-images.githubusercontent.com/90395978/144165880-3675331f-3393-4eb4-b7e1-3ea6cdcbbd11.png">)
+        - Screenshot #10 Transaction type should show accordingly (deposit/withdraw)
 
-      - Screenshot #10 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #10 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #11 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 12 20 PM" src="https://user-images.githubusercontent.com/90395978/144165465-0078eaf1-a4df-4292-8b5e-3dc8dfe08d27.png">)
+        - Screenshot #11 Show appropriate user-friendly error messages
 
-      - Screenshot #11 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #11 User will be able to deposit/withdraw from their account(s)
-
-      - Screenshot #12 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #12 User will be able to deposit/withdraw from their account(s)
-
-      - Screenshot #13 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #13 User will be able to deposit/withdraw from their account(s)
-
-      - Screenshot #14 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #14 User will be able to deposit/withdraw from their account(s)
-
-      - Screenshot #15 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #15 User will be able to deposit/withdraw from their account(s)
-
-
+      - Screenshot #12 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 12 20 PM" src="https://user-images.githubusercontent.com/90395978/144165465-0078eaf1-a4df-4292-8b5e-3dc8dfe08d27.png">)
+        - Screenshot #12 Show user-friendly success messages
+ 
 - Milestone 3
 - Milestone 4
 ### Intructions
