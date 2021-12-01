@@ -1,7 +1,7 @@
 <?php require(__DIR__. "/../../partials/nav.php");; ?>
 <?php
 if (!is_logged_in()) {
-    flash("You must be signed in to access this page");
+    flash("You must signed in to access this page");
     die(header("Location: login.php"));
 }
 ?>
