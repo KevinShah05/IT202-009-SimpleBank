@@ -203,10 +203,10 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png"> <img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png"> <img width="1117" alt="Screen Shot 2021-11-30 at 9 35 07 PM" src="https://user-images.githubusercontent.com/90395978/144161728-8bd98659-cd53-4bc2-8a88-b9eaf130b416.png">)
+      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png"> <img width="1117" alt="Screen Shot 2021-11-30 at 9 35 07 PM" src="https://user-images.githubusercontent.com/90395978/144161728-8bd98659-cd53-4bc2-8a88-b9eaf130b416.png">)
         - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements). User does not have access to accounts if they're not logged in and does not have correct role to access.
       
-      - Screenshot #2 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 41 32 PM" src="https://user-images.githubusercontent.com/90395978/144145714-b61f0efc-87dc-426a-8d19-0c1e6dfa283b.png">)
+      - Screenshot #2 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 47 26 PM" src="https://user-images.githubusercontent.com/90395978/144168678-d7c326d1-b204-417a-8217-7ffb55056eff.png">)
         - Screenshot #2	Create a world account in the Accounts table created below (if it doesn’t exist)
           - Account_number must be “000000000000”
             User_id must be the id of the system user
@@ -249,8 +249,8 @@
       - Screenshot #2 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
         - Screenshot #2	System will generate a unique 12 digit account number
 
-      - Screenshot #3 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
-        - Screenshot #3	System will associate the account to the user. Owner ID.
+      - Screenshot #3 (<img width="1114" alt="Screen Shot 2021-11-30 at 10 50 15 PM" src="https://user-images.githubusercontent.com/90395978/144168937-a1b98d9e-c617-4601-bc18-d125dc226588.png">)
+        - Screenshot #3	System will associate the account to the user.
       
       - Screenshot #4 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
         - Screenshot #4	Account type will be set as checking
