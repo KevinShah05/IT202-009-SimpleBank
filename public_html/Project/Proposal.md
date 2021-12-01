@@ -194,7 +194,7 @@
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
       - Screenshot #1 (<img width="677" alt="Screen Shot 2021-11-29 at 11 01 45 PM" src="https://user-images.githubusercontent.com/90395978/143983748-2c54398d-2b01-4567-93a4-ab95e2ef1037.png">)
-        - Screenshot #1 •	Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
+        - Screenshot #1	Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
     
   - [x] \(11/29/2021 of completion) Project setup steps:
   -  List of Evidence of Feature Completion
@@ -203,10 +203,10 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements)
+      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png"> <img width="1143" alt="Screen Shot 2021-11-30 at 6 30 33 PM" src="https://user-images.githubusercontent.com/90395978/144144726-e18840bb-3807-4ce6-b3a4-dab081a7018c.png">)
+        - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements). User does not have access to accounts if they're not logged in.
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 41 32 PM" src="https://user-images.githubusercontent.com/90395978/144145714-b61f0efc-87dc-426a-8d19-0c1e6dfa283b.png">)
         - Screenshot #2	Create a world account in the Accounts table created below (if it doesn’t exist)
           - Account_number must be “000000000000”
             User_id must be the id of the system user
@@ -220,7 +220,7 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="345" alt="Screen Shot 2021-11-30 at 6 43 15 PM" src="https://user-images.githubusercontent.com/90395978/144145864-330ccbe0-d31e-42a2-9f2e-25a7be98f023.png">)
         - Screenshot #1	Create the Transactions table
       
   - [x] \(11/29/2021 of completion) Dashboard page
@@ -230,10 +230,10 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 44 53 PM" src="https://user-images.githubusercontent.com/90395978/144146065-feab0b22-40bc-408f-a180-22b71bb8ec70.png">)
         - Screenshot #1 Will have links for Create Account, My Accounts, Deposit, Withdraw Transfer, Profile
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1146" alt="Screen Shot 2021-11-30 at 6 45 53 PM" src="https://user-images.githubusercontent.com/90395978/144146142-7ef02ba0-aa3c-4a38-8e7d-1dc8012f9301.png">)
         - Screenshot #2 Links that don’t have pages yet should just have href=”#”, you’ll update them later
 
   - [x] \(11/29/2021 of completion) User will be able to create a checking account
@@ -243,22 +243,20 @@
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="544" alt="Screen Shot 2021-11-30 at 6 58 12 PM" src="https://user-images.githubusercontent.com/90395978/144147184-6a52eb28-3a17-42df-98ae-1b9adfd3a6a8.png">)
         - Screenshot #1	User will be able to create a checking account
 
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #2	Option 2: Generate the number based on the id column; requires inserting a null first to get the last insert id, then update the record immediately after
+      - Screenshot #2 (<img width="544" alt="Screen Shot 2021-11-30 at 6 58 12 PM" src="https://user-images.githubusercontent.com/90395978/144147184-6a52eb28-3a17-42df-98ae-1b9adfd3a6a8.png">)
+        - Screenshot #2	System will generate a unique 12 digit account number
 
-      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #3	User will be able to create a checking account
       
-      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #4	System will associate the account to the user
+      - Screenshot #4 (<img width="544" alt="Screen Shot 2021-11-30 at 6 58 12 PM" src="https://user-images.githubusercontent.com/90395978/144147184-6a52eb28-3a17-42df-98ae-1b9adfd3a6a8.png">)
+        - Screenshot #4	System will associate the account to the user. Owner ID.
       
-      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #5 (<img width="544" alt="Screen Shot 2021-11-30 at 6 58 12 PM" src="https://user-images.githubusercontent.com/90395978/144147184-6a52eb28-3a17-42df-98ae-1b9adfd3a6a8.png">)
         - Screenshot #5	Account type will be set as checking
       
-      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #6 (<img width="1148" alt="Screen Shot 2021-11-30 at 7 12 29 PM" src="https://user-images.githubusercontent.com/90395978/144148481-17f982f0-4021-4d69-8b50-3bed9e9c40d5.png">)
         - Screenshot #6	Will require a minimum deposit of $5 (from the world account)
       
       - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
@@ -267,11 +265,11 @@
       - Screenshot #8 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #8	User will see user-friendly error messages when appropriate
       
-      - Screenshot #9 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #9 (<img width="1115" alt="Screen Shot 2021-11-30 at 7 40 44 PM" src="https://user-images.githubusercontent.com/90395978/144150954-2d5f1e8a-2f27-490e-b3ea-1f04b86ef975.png">)
         - Screenshot #9	User will see user-friendly success message when account is created successfully
       
-      - Screenshot #10 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #10 Redirect user to their Accounts page
+      - Screenshot #10 (<img width="1145" alt="Screen Shot 2021-11-30 at 7 42 53 PM" src="https://user-images.githubusercontent.com/90395978/144151168-9ae1090f-efd2-4222-aec2-7ee481eb4d36.png">)
+        - Screenshot #10 Redirect user to Accounts page
       
 
   - [x] \(11/29/2021 of completion) User will be able to list their accounts
