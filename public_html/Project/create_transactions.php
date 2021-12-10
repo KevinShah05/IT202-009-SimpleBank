@@ -4,7 +4,7 @@
 $accounts = getDropDown();
 ?>
 
-   <h3 class="text-center"><strong>DEPOSITE/WITHRAW</strong></h3> 
+   <h3 class="text-center"><strong>DEPOSITE/WITHRAW/TRANSFER</strong></h3> 
     <hr>
     <form method="POST">     
         <label>Source Account</label placeholder="0">
@@ -43,8 +43,9 @@ $accounts = getDropDown();
         <label>Action</label> 
         <select name="action" id="type" placeholder="transfer" onclick="showTransferForm()">
             
-            <option value ="deposit">desposit</option>
-            <option value ="withdrawl">withdraw</option>
+            <option value ="deposit">Desposit</option>
+            <option value ="withdrawl">Withdraw</option>
+            <option value ="withdrawl">Transfer</option>
         </select>
         <label>Memo</label>
         <input type="text" name="memo">
