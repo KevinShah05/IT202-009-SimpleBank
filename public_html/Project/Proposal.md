@@ -79,8 +79,6 @@
       - Screenshot #5 (<img width="482" alt="Screen Shot 2021-11-11 at 4 06 59 PM" src="https://user-images.githubusercontent.com/90395978/141369190-1d06438d-6cf6-46f8-89b3-31a12dca7ce3.png"> <img width="522" alt="Screen Shot 2021-11-11 at 4 03 06 PM" src="https://user-images.githubusercontent.com/90395978/141368785-a420e874-f84e-4896-bebc-231c0c88c558.png">)
         - Screenshot #5 This is a protected page (non-logged in users shouldn’t have access)
 
-
-
   - [x] \(11/10/2021 of completion) User will be able to logout
   -  List of Evidence of Feature Completion
     - Status: Completed
@@ -183,25 +181,51 @@
       - Screenshot #3 (<img width="472" alt="Screen Shot 2021-11-11 at 5 03 14 PM" src="https://user-images.githubusercontent.com/90395978/141375497-3c741db3-d6b2-4e57-8e97-39ec371f3ac7.png">)
         - Screenshot #3 Allow password reset (only if the existing correct password is provided)
   
+
 - Milestone 2
 
   - [x] \(11/29/2021 of completion) Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
   -  List of Evidence of Feature Completion
     - Status: Completed
+<<<<<<< HEAD
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
+=======
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+>>>>>>> bb56b5b44b7a44fa7da483a6741e469be8d948e2
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
       - Screenshot #1 (<img width="677" alt="Screen Shot 2021-11-29 at 11 01 45 PM" src="https://user-images.githubusercontent.com/90395978/143983748-2c54398d-2b01-4567-93a4-ab95e2ef1037.png">)
         - Screenshot #1 •	Create the Accounts table (id, account_number [unique, always 12 characters], user_id, balance (default 0), account_type, created, modified)
     
   - [ ] \(mm/dd/yyyy of completion) Project setup steps:
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Completed
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
+      - Screenshot #1 (<img width="345" alt="Screen Shot 2021-11-30 at 6 43 15 PM" src="https://user-images.githubusercontent.com/90395978/144145864-330ccbe0-d31e-42a2-9f2e-25a7be98f023.png">)
+        - Screenshot #1	Create the Transactions table
+      
+  - [x] \(11/29/2021 of completion) Dashboard page
+  -  List of Evidence of Feature Completion
+    - Status: Completed
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
+    - Pull Requests
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
+    - Screenshots
+      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-11-30 at 6 44 53 PM" src="https://user-images.githubusercontent.com/90395978/144146065-feab0b22-40bc-408f-a180-22b71bb8ec70.png">)
+        - Screenshot #1 Will have links for Create Account, My Accounts, Deposit, Withdraw Transfer, Profile
+      
+      - Screenshot #2 (<img width="1146" alt="Screen Shot 2021-11-30 at 6 45 53 PM" src="https://user-images.githubusercontent.com/90395978/144146142-7ef02ba0-aa3c-4a38-8e7d-1dc8012f9301.png">)
+        - Screenshot #2 Links that don’t have pages yet should just have href=”#”, you’ll update them later
+
+  - [x] \(11/29/2021 of completion) User will be able to create a checking account
+  -  List of Evidence of Feature Completion
+    - Status: Completed
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
+
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1	Create a system user if they don’t exist (this will never be logged into, it’s just to keep things working per system requirements)
       
@@ -217,8 +241,36 @@
     - Status: Completed
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
+      - Screenshot #1 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
+        - Screenshot #1	User will be able to create a checking account
+
+      - Screenshot #2 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
+        - Screenshot #2	System will generate a unique 12 digit account number
+
+      - Screenshot #3 (<img width="1114" alt="Screen Shot 2021-11-30 at 10 50 15 PM" src="https://user-images.githubusercontent.com/90395978/144168937-a1b98d9e-c617-4601-bc18-d125dc226588.png">)
+        - Screenshot #3	System will associate the account to the user.
+      
+      - Screenshot #4 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
+        - Screenshot #4	Account type will be set as checking
+      
+      - Screenshot #5 (<img width="1148" alt="Screen Shot 2021-11-30 at 7 12 29 PM" src="https://user-images.githubusercontent.com/90395978/144148481-17f982f0-4021-4d69-8b50-3bed9e9c40d5.png">)
+        - Screenshot #5	Will require a minimum deposit of $5 (from the world account)
+      
+      - Screenshot #6 (<img width="1117" alt="Screen Shot 2021-11-30 at 10 29 13 PM" src="https://user-images.githubusercontent.com/90395978/144166971-d003eef0-6413-4ea6-986d-6a1225d41b4f.png">)
+        - Screenshot #6	Account Balance will be updated based on SUM of BalanceChange of AccountSrc
+
+      - Screenshot #7 (<img width="1117" alt="Screen Shot 2021-11-30 at 9 35 07 PM" src="https://user-images.githubusercontent.com/90395978/144161728-8bd98659-cd53-4bc2-8a88-b9eaf130b416.png">)
+        - Screenshot #7	User will see user-friendly error messages when appropriate
+      
+      - Screenshot #8 (<img width="1115" alt="Screen Shot 2021-11-30 at 7 40 44 PM" src="https://user-images.githubusercontent.com/90395978/144150954-2d5f1e8a-2f27-490e-b3ea-1f04b86ef975.png">)
+        - Screenshot #8	User will see user-friendly success message when account is created successfully
+
+  - [x] \(11/29/2021 of completion) User will be able to list their accounts
+  -  List of Evidence of Feature Completion
+    - Status: Completed
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1	Create the Transactions table
       
@@ -226,141 +278,72 @@
   -  List of Evidence of Feature Completion
     - Status: Completed
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 Will have links for Create Account, My Accounts, Deposit, Withdraw Transfer, Profile
-      
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #2 Links that don’t have pages yet should just have href=”#”, you’ll update them later
 
-  - [x] \(11/29/2021 of completion) User will be able to create a checking account
-  -  List of Evidence of Feature Completion
-    - Status: Completed
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1	User will be able to create a checking account
-
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #2	Option 2: Generate the number based on the id column; requires inserting a null first to get the last insert id, then update the record immediately after
-
-      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #3	User will be able to create a checking account
-      
-      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #4	System will associate the account to the user
-      
-      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #5	Account type will be set as checking
-      
-      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #6	Will require a minimum deposit of $5 (from the world account)
-      
-      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #7	Account Balance will be updated based on SUM of BalanceChange of AccountSrc
-
-      - Screenshot #8 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #8	User will see user-friendly error messages when appropriate
-      
-      - Screenshot #9 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #9	User will see user-friendly success message when account is created successfully
-      
-      - Screenshot #10 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #10 Redirect user to their Accounts page
-      
-
-  - [x] \(11/29/2021 of completion) User will be able to list their accounts
-  -  List of Evidence of Feature Completion
-    - Status: Completed
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
         - Screenshot #1 User will be able to list their accounts
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1111" alt="Screen Shot 2021-11-30 at 10 21 37 PM" src="https://user-images.githubusercontent.com/90395978/144166317-492e04ba-9f6c-4869-97d1-b9f252ae24b4.png">)
         - Screenshot #2 Show account number, account type and balance
   
   - [x] \(11/29/2021 of completion) User will be able to click an account for more information (a.ka. Transaction History page)
   -  List of Evidence of Feature Completion
     - Status: Completed
-        - Screenshot #1 description explaining what you're trying to show
-  
-  - [ ] \(mm/dd/yyyy of completion) User will be able to click an account for more information (a.ka. Transaction History page)
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="1142" alt="Screen Shot 2021-11-30 at 8 04 15 PM" src="https://user-images.githubusercontent.com/90395978/144153012-fbd70dad-887c-43c3-a1e7-e4c7d5ac47e3.png">)
         - Screenshot #1 User will be able to click an account for more information (a.ka. Transaction History page)
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1142" alt="Screen Shot 2021-11-30 at 8 04 15 PM" src="https://user-images.githubusercontent.com/90395978/144153012-fbd70dad-887c-43c3-a1e7-e4c7d5ac47e3.png">)
         - Screenshot #2 Show account number, account type, balance, opened/created date
 
-      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #3 (<img width="958" alt="Screen Shot 2021-11-30 at 9 39 52 PM" src="https://user-images.githubusercontent.com/90395978/144162166-b9811c01-a4f0-4c0a-8eae-77abe2b4b2e2.png">)
         - Screenshot #3 Show transaction history (from Transactions table)
 
   - [x] \(11/29/2021 of completion) User will be able to deposit/withdraw from their account(s)
   -  List of Evidence of Feature Completion
     - Status: Completed
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/47)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-
+      - Screenshot #1 (<img width="1113" alt="Screen Shot 2021-11-30 at 9 53 41 PM" src="https://user-images.githubusercontent.com/90395978/144163560-fb15698f-7049-4c23-bc38-088f4c16f503.png"> <img width="1110" alt="Screen Shot 2021-11-30 at 9 50 16 PM" src="https://user-images.githubusercontent.com/90395978/144163218-8f08d85c-6bec-487a-876c-d3d9167c928a.png">)
         - Screenshot #1 User will be able to deposit/withdraw from their account(s)
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1438" alt="Screen Shot 2021-11-30 at 9 57 26 PM" src="https://user-images.githubusercontent.com/90395978/144163972-fc2dfc97-af62-4930-81ca-7a7385d62663.png">)
         - Screenshot #2 Form should have a dropdown of their accounts to pick from
       
-      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #3 (<img width="1438" alt="Screen Shot 2021-11-30 at 9 57 26 PM" src="https://user-images.githubusercontent.com/90395978/144163972-fc2dfc97-af62-4930-81ca-7a7385d62663.png">)
         - Screenshot #3 World account should not be in the dropdown
 
-      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #4 (<img width="1440" alt="Screen Shot 2021-11-30 at 10 42 46 PM" src="https://user-images.githubusercontent.com/90395978/144168262-741c7cd8-8196-4ef0-86a9-c9310c808752.png">)
         - Screenshot #4 Form should have a field to enter a positive numeric value
       
-      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #5 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #6 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 12 20 PM" src="https://user-images.githubusercontent.com/90395978/144165465-0078eaf1-a4df-4292-8b5e-3dc8dfe08d27.png">)
+        - Screenshot #6 For withdraw, make sure they can’t withdraw more money than the account has
 
-      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #6 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #7 (<img width="1117" alt="Screen Shot 2021-11-30 at 10 29 13 PM" src="https://user-images.githubusercontent.com/90395978/144166971-d003eef0-6413-4ea6-986d-6a1225d41b4f.png">)
+        - Screenshot #7 After each transaction pair, make sure to update the Account Balance by SUMing the BalanceChange for the AccountSrc
 
-      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #7 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #8 (<img width="1113" alt="Screen Shot 2021-11-30 at 9 53 41 PM" src="https://user-images.githubusercontent.com/90395978/144163560-fb15698f-7049-4c23-bc38-088f4c16f503.png">)
+        - Screenshot #8 Deposits will be from the “world account”
 
-      - Screenshot #8 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #8 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #9 (<img width="1110" alt="Screen Shot 2021-11-30 at 9 50 16 PM" src="https://user-images.githubusercontent.com/90395978/144163218-8f08d85c-6bec-487a-876c-d3d9167c928a.png">)
+        - Screenshot #9 Withdraws will be to the “world account”
 
-      - Screenshot #9 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #9 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #10 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 16 49 PM" src="https://user-images.githubusercontent.com/90395978/144165880-3675331f-3393-4eb4-b7e1-3ea6cdcbbd11.png">)
+        - Screenshot #10 Transaction type should show accordingly (deposit/withdraw)
 
-      - Screenshot #10 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #10 User will be able to deposit/withdraw from their account(s)
+      - Screenshot #11 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 12 20 PM" src="https://user-images.githubusercontent.com/90395978/144165465-0078eaf1-a4df-4292-8b5e-3dc8dfe08d27.png">)
+        - Screenshot #11 Show appropriate user-friendly error messages
 
-      - Screenshot #11 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #11 User will be able to deposit/withdraw from their account(s)
-
-      - Screenshot #12 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #12 User will be able to deposit/withdraw from their account(s)
-
-      - Screenshot #13 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #13 User will be able to deposit/withdraw from their account(s)
-
-      - Screenshot #14 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #14 User will be able to deposit/withdraw from their account(s)
-
-      - Screenshot #15 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #15 User will be able to deposit/withdraw from their account(s)
-
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #12 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 12 20 PM" src="https://user-images.githubusercontent.com/90395978/144165465-0078eaf1-a4df-4292-8b5e-3dc8dfe08d27.png">)
+        - Screenshot #12 Show user-friendly success messages
 
 - Milestone 3
 
@@ -414,6 +397,7 @@
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
+>>>>>>> b74ec4d09faada02007145f66681f23fd627dd08
 
   - [ ] \(mm/dd/yyyy of completion) Admin role (leave this section for last)
   -  List of Evidence of Feature Completion
