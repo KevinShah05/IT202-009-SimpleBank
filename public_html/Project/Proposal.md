@@ -395,17 +395,17 @@
 
   - [x] \(12/10/2021 of completion) User’s profile page should record/show First and Last name
   -  List of Evidence of Feature Completion
-    - Status: Completed
+    - Status: Partially Working
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-12-10 at 11 31 56 PM" src="https://user-images.githubusercontent.com/90395978/145663833-585588f2-2d8b-465c-9dab-1ac17b47949a.png">)
         - Screenshot #1 User’s profile page should record/show First and Last name
 
   - [x] \(12/10/2021 of completion) User will be able to transfer funds to another user’s account
   -  List of Evidence of Feature Completion
-    - Status: Completed
+    - Status: Partially Working
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
@@ -422,15 +422,15 @@
         - Screenshot #3 Form should include a field for the last 4 digits of the destination user’s account number (to lookup AccountDest)
 
     - Screenshots
-      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #4 (<img width="1144" alt="Screen Shot 2021-12-10 at 11 23 15 PM" src="https://user-images.githubusercontent.com/90395978/145663632-b39f7d1c-3f4c-497e-8948-47bf541f5849.png">)
         - Screenshot #4 Form should include a field for a positive numerical value
 
     - Screenshots
-      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #5 (<img width="1117" alt="Screen Shot 2021-12-09 at 10 37 25 PM" src="https://user-images.githubusercontent.com/90395978/145513327-af7fa7fb-3050-48e4-9831-fc9d84599d89.png">)
         - Screenshot #5 Form should allow the user to record a memo for the transaction
 
     - Screenshots
-      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #6 (<img width="1112" alt="Screen Shot 2021-12-09 at 10 40 03 PM" src="https://user-images.githubusercontent.com/90395978/145513538-b92d9646-9d93-4f9a-b024-2440dcbb04d0.png"><img width="1112" alt="Screen Shot 2021-12-09 at 10 40 50 PM" src="https://user-images.githubusercontent.com/90395978/145513605-359029af-b9a2-475f-9040-b8ad34ac942e.png">)
         - Screenshot #6 System shouldn’t let the user transfer more than the balance of their account
     
      - Screenshots
@@ -446,13 +446,9 @@
         - Screenshot #9 Transaction will be recorded with the type as “ext-transfer”
     
     - Screenshots
-      - Screenshot #10 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #10 (<img width="963" alt="Screen Shot 2021-12-09 at 10 48 11 PM" src="https://user-images.githubusercontent.com/90395978/145514253-7312d281-bf27-4d91-a6d5-71ffa30363b8.png">)
         - Screenshot #10 Each transaction is recorded as a transaction pair in the Transaction table
-    
-     - Screenshots
-      - Screenshot #11 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #11 These will reflect in the transaction history page
-
+   
 
 
 
