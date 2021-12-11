@@ -339,10 +339,10 @@
 - Milestone 3
   - [x] \(12/10/2021 of completion) User will be able to transfer between their accounts
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Completed
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
       - Screenshot #1 (<img width="1117" alt="Screen Shot 2021-12-09 at 10 37 25 PM" src="https://user-images.githubusercontent.com/90395978/145513327-af7fa7fb-3050-48e4-9831-fc9d84599d89.png">)
         - Screenshot #1 User will be able to transfer between their accounts
@@ -373,10 +373,10 @@
 
   - [x] \(12/10/2021 of completion) Transaction History page
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Completed
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
       - Screenshot #1 (<img width="1084" alt="Screen Shot 2021-12-09 at 10 55 10 PM" src="https://user-images.githubusercontent.com/90395978/145514804-2f5534aa-2275-49fd-a418-cba03a08c596.png">)
         - Screenshot #1 Will show the latest 10 transactions by default
@@ -395,20 +395,20 @@
 
   - [x] \(12/10/2021 of completion) User’s profile page should record/show First and Last name
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Completed
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 User’s profile page should record/show First and Last name
 
   - [x] \(12/10/2021 of completion) User will be able to transfer funds to another user’s account
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Completed
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 Form should include a dropdown of the current user’s accounts (as AccountSrc)
