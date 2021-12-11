@@ -373,7 +373,7 @@
 
   - [x] \(12/10/2021 of completion) Transaction History page
   -  List of Evidence of Feature Completion
-    - Status: Completed
+    - Status: Partially Working
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
@@ -389,13 +389,9 @@
       - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #3 User will be able to filter transactions by type (deposit, withdraw, transfer)
 
-    - Screenshots
-      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #4 Transactions should paginate results after the initial 10
-
   - [x] \(12/10/2021 of completion) User’s profile page should record/show First and Last name
   -  List of Evidence of Feature Completion
-    - Status: Partially Working
+    - Status: Completed
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
