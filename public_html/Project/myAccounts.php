@@ -1,5 +1,6 @@
 <?php require(__DIR__. "/../../partials/nav.php");
-      require(__DIR__ . "/../lib/functions.php");
+    
+      
 ?>
 
 <?php
@@ -36,7 +37,8 @@
                         <div><?php safer_echo($r["balance"]); ?></div>
                     </div>
                     <div>
-                        <a type="button" href="<?php echo getURL("accounts/my_transactions.php?id=" . $r["AccID"]); ?>">View Transaction History</a>
+                        <a type="button" href="my_transactions.php?id=<?php safer_echo($r["AccID"]); ?>">View Transaction History</a>
+                    
                     </div>
                 </div>
             <?php endforeach; ?>

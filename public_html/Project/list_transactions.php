@@ -61,11 +61,11 @@ if (isset($_POST["query"])) {
                         <div><?php safer_echo($r["act_src_id"]); ?></div>
                     </div>
                     <div>
-                        <div>Desti nation:</div>
+                        <div>Destination:</div>
                         <div><?php safer_echo($r["act_dest_id"]); ?></div>
                     </div>
                     <div>
-                        <div>amount:</div>
+                        <div>Amount:</div>
                         <div><?php safer_echo($r["amount"]); ?></div>
                     </div>
                     <div>

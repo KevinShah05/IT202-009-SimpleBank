@@ -52,7 +52,7 @@ if (isset($user) && !empty($user)) {
                             <div><?php safer_echo($r["amount"]); ?></div>
                         </div>
                         <div>
-                            <a type="button" href="<?php echo getURL("accounts/view_transactions.php?id=" . $r["tranID"]); ?>">More Details</a>
+                            <a type="button" href="view_transactions.php?id=<?php safer_echo($r['tranID']); ?>">More Details</a>
                         </div>
                     </div>
                 <?php endforeach; ?>
