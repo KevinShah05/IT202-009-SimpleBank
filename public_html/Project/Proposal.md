@@ -345,7 +345,7 @@
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
       - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
     - Screenshots
-      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-17 at 2 04 00 PM" src="https://user-images.githubusercontent.com/90395978/146595313-90993743-cf68-49dc-966f-d29156e80c9f.png">)
+      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 05 37 PM" src="https://user-images.githubusercontent.com/90395978/146601748-3e5794bd-f63a-4018-b62b-4d37b37f690a.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 07 04 PM" src="https://user-images.githubusercontent.com/90395978/146601914-97324081-757c-41a3-8ef4-257537137625.png">)
         - Screenshot #1 User will be able to transfer between their accounts
 
     - Screenshots
@@ -410,12 +410,16 @@
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
       - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 Form should include a dropdown of the current user’s accounts (as AccountSrc)
+      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 05 37 PM" src="https://user-images.githubusercontent.com/90395978/146601748-3e5794bd-f63a-4018-b62b-4d37b37f690a.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 07 04 PM" src="https://user-images.githubusercontent.com/90395978/146601914-97324081-757c-41a3-8ef4-257537137625.png">)
+        - Screenshot #1 User will be able to transfer funds to another user’s account
+    
+    - Screenshots
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 12 55 PM" src="https://user-images.githubusercontent.com/90395978/146602528-f53e8e88-c96f-4491-86b9-c8932c19f71e.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 13 46 PM" src="https://user-images.githubusercontent.com/90395978/146602608-cadca32e-cc95-4eca-a414-18c6eed1f569.png">)
+        - Screenshot #2 Form should include a dropdown of the current user’s accounts (as AccountSrc). Screentshot above are both from Source and Destination.
         
     - Screenshots
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #2 Form should include a field for the destination user’s last name
+      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #3 Form should include a field for the destination user’s last name
 
     - Screenshots
       - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
