@@ -336,6 +336,9 @@
       - Screenshot #12 (<img width="1108" alt="Screen Shot 2021-11-30 at 10 12 20 PM" src="https://user-images.githubusercontent.com/90395978/144165465-0078eaf1-a4df-4292-8b5e-3dc8dfe08d27.png">)
         - Screenshot #12 Show user-friendly success messages
  
+ 
+---------------------------------------
+
 - Milestone 3
   - [x] \(12/10/2021 of completion) User will be able to transfer between their accounts
   -  List of Evidence of Feature Completion
@@ -349,7 +352,7 @@
         - Screenshot #1 User will be able to transfer between their accounts
 
     - Screenshots
-      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 2 04 49 PM" src="https://user-images.githubusercontent.com/90395978/146595406-c0176681-1b40-429a-a8ce-04c57c7cc4a1.png">)
+      - Screenshot #2 (<img width="1435" alt="Screen Shot 2021-12-17 at 3 16 42 PM" src="https://user-images.githubusercontent.com/90395978/146602937-be26d1e0-9e81-4985-956b-9f4c0c1b84e6.png">)
         - Screenshot #2 Form should include a dropdown first AccountSrc and a dropdown for AccountDest (only accounts the user owns; no world account)
 
     - Screenshots
