@@ -28,7 +28,8 @@ if (isset($user) && !empty($user)) {
 }
 ?>
 
-
+<ul class = "MyTrans">
+<body style= "background-color:bisque";></body>
 <h3>List Transcations</h3>
 <div class="results">
         <?php if (count($results) > 0): ?>
@@ -58,6 +59,7 @@ if (isset($user) && !empty($user)) {
             <p>No results</p>
         <?php endif; ?>
 </div>
+</ul>
 <?php
 require(__DIR__ . "/../../partials/flash.php");
 ?>

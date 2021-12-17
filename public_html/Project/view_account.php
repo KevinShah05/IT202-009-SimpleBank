@@ -27,6 +27,8 @@ if (isset($id)) {
 
 }
 ?>
+<ul class = "ViewAcc">
+<body style= "background-color:bisque";></body>
 <?php if (isset($result) && !empty($result)): ?>
     <div class="card">
             <div class="card-body">
@@ -39,10 +41,14 @@ if (isset($id)) {
             </div>
         </div>
     </div>
+</ul>
+
 <?php else: ?>
 <p>Error looking up id...</p>
 <?php endif; ?>
 
+<ul class = "ViewTrans">
+<body style= "background-color:bisque";></body>
 <?php if (isset($result2) && !empty($result2)): ?>
     <br/>
     <div class ="card">

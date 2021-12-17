@@ -49,6 +49,9 @@ if(isset($id)){
 }
 ?>
 <form method="POST">
+<ul class = "EditAcc">
+
+<body style= "background-color:bisque";></body>
   <label>Account Number</label>
   <input type="number" name="account_number" value="<?php echo $result["account_number"];?>"/>
   <label>Account Type</label>
@@ -62,6 +65,7 @@ if(isset($id)){
   <input type="number" min="10.00" name="balance" value="<?php echo $result["balance"];?>" />
   <input type="submit" name="save" value="Update"/>
 </form>
+</ul>
 
 <?php
 require(__DIR__ . "/../../partials/flash.php");

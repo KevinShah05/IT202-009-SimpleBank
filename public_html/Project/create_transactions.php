@@ -6,7 +6,9 @@ $accounts = getDropDown();
 
    <h3 class="text-center"><strong>DEPOSITE/WITHRAW/TRANSFER</strong></h3> 
     <hr>
-    <form method="POST">     
+    <form method="POST">   
+    <ul class = "CreateTrans">
+    <body style= "background-color:bisque";></body>  
         <label>Source Account</label placeholder="0">
             <select name="s_id">
             <?php foreach($accounts as $row):?>
@@ -52,6 +54,7 @@ $accounts = getDropDown();
         <input class="btn btn-primary" type ="submit" name="save" value="create"/>
     <hr> 
     </form> 
+    </ul>
 
 
 <?php
