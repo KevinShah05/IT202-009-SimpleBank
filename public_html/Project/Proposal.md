@@ -343,6 +343,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
+      - PR link #2 Minor Styling and other changes: (https://github.com/KevinShah05/IT202-009/pull/57)
     - Screenshots
       - Screenshot #1 (<img width="1117" alt="Screen Shot 2021-12-09 at 10 37 25 PM" src="https://user-images.githubusercontent.com/90395978/145513327-af7fa7fb-3050-48e4-9831-fc9d84599d89.png">)
         - Screenshot #1 User will be able to transfer between their accounts
@@ -377,6 +378,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
+      - PR link #2 Minor Styling and other changes: (https://github.com/KevinShah05/IT202-009/pull/57)
     - Screenshots
       - Screenshot #1 (<img width="1439" alt="Screen Shot 2021-12-16 at 9 56 14 PM" src="https://user-images.githubusercontent.com/90395978/146481662-745cb57b-b672-4eca-9c0a-b7b82d6f6107.png">)
         - Screenshot #1 Will show the latest 10 transactions by default
@@ -395,6 +397,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
+      - PR link #2 Minor Styling and other changes: (https://github.com/KevinShah05/IT202-009/pull/57)
     - Screenshots
       - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-12-10 at 11 31 56 PM" src="https://user-images.githubusercontent.com/90395978/145663833-585588f2-2d8b-465c-9dab-1ac17b47949a.png">)
         - Screenshot #1 User’s profile page should record/show First and Last name
@@ -405,6 +408,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
+      - PR link #2 Minor Styling and other changes: (https://github.com/KevinShah05/IT202-009/pull/57)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 Form should include a dropdown of the current user’s accounts (as AccountSrc)
@@ -445,10 +449,67 @@
       - Screenshot #10 (<img width="959" alt="Screen Shot 2021-12-16 at 9 59 07 PM" src="https://user-images.githubusercontent.com/90395978/146481928-36d08490-8545-4ad3-a79d-60fd82751162.png">)
         - Screenshot #10 Each transaction is recorded as a transaction pair in the Transaction table
    
-
-
-
 - Milestone 4
+  - [ ] \(mm/dd/yyyy of completion) User can set their profile to be public or private (will need another column in Users table)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+
+  - [ ] \(mm/dd/yyyy of completion) User will be able open a savings account
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+
+  - [ ] \(mm/dd/yyyy of completion) User will be able to take out a loan
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+
+  - [ ] \(mm/dd/yyyy of completion) Listing accounts and/or viewing Account Details should show any applicable APY or “-” if none is set for the particular account (may alternatively just hide the display for these types)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+
+  - [ ] \(mm/dd/yyyy of completion) User will be able to close an account
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+
+  - [ ] \(mm/dd/yyyy of completion) Admin role (leave this section for last)
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 description explaining what you're trying to show
+        
 ### Intructions
 #### Don't delete this
 1. Pick one project type
