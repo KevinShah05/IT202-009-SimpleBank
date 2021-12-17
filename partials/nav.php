@@ -7,7 +7,7 @@ if (strpos($domain, ":")) {
 }
 session_set_cookie_params([
     "lifetime" => 60 * 60,
-    "path" => "/project",
+    "path" => "/Project",
     //"domain" => $_SERVER["HTTP_HOST"] || "localhost",
     "domain" => $domain,
     "secure" => true,
@@ -33,7 +33,8 @@ require(__DIR__ . "/../lib/functions.php");
     <?php if (is_logged_in()): ?> 
         <li><a href="create_account.php">Create Account</a></li>
         <li><a href="list_account.php">View Accounts</a></li>
-        <li><a href="create_transactions.php">Deposite/Withdraw/Transfer</a></li>      
+        <li><a href="create_transactions.php">Deposite/Withdraw/Transfer</a></li> 
+        <li><a href="myAccounts.php">My Accounts</a></li>     
         <li><a href="list_transactions.php">View transactions</a></li>
     <?php endif; ?>
     

@@ -43,9 +43,9 @@ $accounts = getDropDown();
         <label>Action</label> 
         <select name="action" id="type" placeholder="transfer" onclick="showTransferForm()">
             
-            <option value ="deposit">Desposit</option>
-            <option value ="withdrawl">Withdraw</option>
-            <option value ="withdrawl">Transfer</option>
+            <option value ="transfer">transfer</option>
+            <option value ="deposit">desposit</option>
+            <option value ="withdrawl">withdraw</option>
         </select>
         <label>Memo</label>
         <input type="text" name="memo">

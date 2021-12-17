@@ -1,14 +1,17 @@
 <?php require(__DIR__ . "/../../partials/nav.php"); ?>
 <?php
+  
   if (!has_role("Admin")) {
     flash("You don't have permission to access this page");
     die(header("Location: login.php"));  
 }
 ?>
 
+
 <form method="POST">
-  <label> Account Number </label>
+  <label> Account Number: </label>
   <input type="number" name="account_number" value="<?php echo $result["account_number"];?>" />
+  
   <label>Account Type</label>
   <select name="account_type">
     <option value = "checking">checking</option>

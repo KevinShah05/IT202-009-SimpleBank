@@ -36,23 +36,20 @@ if (isset($user) && !empty($user)) {
                 <?php foreach ($results as $r): ?>
                     <div class="list-group-item">
                         <div>
-                            <div><strong>Action Type:</strong></div>
-                            <div><?php safer_echo($r["action_type"]); ?></div>
+                            <div><strong>Action Type: </strong><?php safer_echo($r["action_type"]); ?></div>
                         </div>
                         <div>
-                            <div><strong>Source:</strong></div>
-                            <div><?php safer_echo($r["act_src_id"]); ?></div>
+                            <div><strong>Source: </strong><?php safer_echo($r["act_src_id"]); ?></div>
                         </div>
                         <div>
-                            <div><strong>Destination:</strong></div>
-                            <div><?php safer_echo($r["act_dest_id"]); ?></div>
+                            <div><strong>Destination: </strong><?php safer_echo($r["act_dest_id"]); ?></div>
                         </div>
                         <div>
-                            <div><strong>Amount:</strong></div>
-                            <div><?php safer_echo($r["amount"]); ?></div>
+                            <div><strong>Amount: </strong><?php safer_echo($r["amount"]); ?></div>
                         </div>
                         <div>
-                            <a type="button" href="<?php echo getURL("accounts/view_transactions.php?id=" . $r["tranID"]); ?>">More Details</a>
+                            <a type="button" href="view_transactions.php?id=<?php safer_echo($r['tranID']); ?>">More Details</a>
+                            <p></p>
                         </div>
                     </div>
                 <?php endforeach; ?>
