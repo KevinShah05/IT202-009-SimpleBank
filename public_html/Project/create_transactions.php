@@ -101,9 +101,6 @@ $accounts = getDropDown();
         }
           
     }
-   
-
-
 ?>
 
 <?php
