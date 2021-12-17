@@ -340,7 +340,7 @@
   - [x] \(12/10/2021 of completion) User will be able to transfer between their accounts
   -  List of Evidence of Feature Completion
     - Status: Completed
-    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
@@ -374,11 +374,11 @@
   - [x] \(12/10/2021 of completion) Transaction History page
   -  List of Evidence of Feature Completion
     - Status: Partially Working
-    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
-      - Screenshot #1 (<img width="1084" alt="Screen Shot 2021-12-09 at 10 55 10 PM" src="https://user-images.githubusercontent.com/90395978/145514804-2f5534aa-2275-49fd-a418-cba03a08c596.png">)
+      - Screenshot #1 (<img width="1439" alt="Screen Shot 2021-12-16 at 9 56 14 PM" src="https://user-images.githubusercontent.com/90395978/146481662-745cb57b-b672-4eca-9c0a-b7b82d6f6107.png">)
         - Screenshot #1 Will show the latest 10 transactions by default
     
     - Screenshots
@@ -392,7 +392,7 @@
   - [x] \(12/10/2021 of completion) User’s profile page should record/show First and Last name
   -  List of Evidence of Feature Completion
     - Status: Completed
-    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
@@ -402,7 +402,7 @@
   - [x] \(12/10/2021 of completion) User will be able to transfer funds to another user’s account
   -  List of Evidence of Feature Completion
     - Status: Partially Working
-    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
     - Screenshots
@@ -442,7 +442,7 @@
         - Screenshot #9 Transaction will be recorded with the type as “ext-transfer”
     
     - Screenshots
-      - Screenshot #10 (<img width="963" alt="Screen Shot 2021-12-09 at 10 48 11 PM" src="https://user-images.githubusercontent.com/90395978/145514253-7312d281-bf27-4d91-a6d5-71ffa30363b8.png">)
+      - Screenshot #10 (<img width="959" alt="Screen Shot 2021-12-16 at 9 59 07 PM" src="https://user-images.githubusercontent.com/90395978/146481928-36d08490-8545-4ad3-a79d-60fd82751162.png">)
         - Screenshot #10 Each transaction is recorded as a transaction pair in the Transaction table
    
 
