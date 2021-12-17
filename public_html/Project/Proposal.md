@@ -343,13 +343,13 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling and other changes: (https://github.com/KevinShah05/IT202-009/pull/57)
+      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
     - Screenshots
-      - Screenshot #1 (<img width="1117" alt="Screen Shot 2021-12-09 at 10 37 25 PM" src="https://user-images.githubusercontent.com/90395978/145513327-af7fa7fb-3050-48e4-9831-fc9d84599d89.png">)
+      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-17 at 2 04 00 PM" src="https://user-images.githubusercontent.com/90395978/146595313-90993743-cf68-49dc-966f-d29156e80c9f.png">)
         - Screenshot #1 User will be able to transfer between their accounts
 
     - Screenshots
-      - Screenshot #2 (<img width="1102" alt="Screen Shot 2021-12-09 at 10 38 27 PM" src="https://user-images.githubusercontent.com/90395978/145513400-c8656d8c-3f5d-4bde-98d1-0984676f0570.png">)
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 2 04 49 PM" src="https://user-images.githubusercontent.com/90395978/146595406-c0176681-1b40-429a-a8ce-04c57c7cc4a1.png">)
         - Screenshot #2 Form should include a dropdown first AccountSrc and a dropdown for AccountDest (only accounts the user owns; no world account)
 
     - Screenshots
@@ -378,9 +378,9 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling and other changes: (https://github.com/KevinShah05/IT202-009/pull/57)
+      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
     - Screenshots
-      - Screenshot #1 (<img width="1439" alt="Screen Shot 2021-12-16 at 9 56 14 PM" src="https://user-images.githubusercontent.com/90395978/146481662-745cb57b-b672-4eca-9c0a-b7b82d6f6107.png">)
+      - Screenshot #1 (<img width="548" alt="Screen Shot 2021-12-17 at 2 24 14 PM" src="https://user-images.githubusercontent.com/90395978/146597378-4f0e8df5-facd-432e-ae0e-ca38dcf324ee.png">)
         - Screenshot #1 Will show the latest 10 transactions by default
     
     - Screenshots
@@ -397,9 +397,9 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling and other changes: (https://github.com/KevinShah05/IT202-009/pull/57)
+      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
     - Screenshots
-      - Screenshot #1 (<img width="1143" alt="Screen Shot 2021-12-10 at 11 31 56 PM" src="https://user-images.githubusercontent.com/90395978/145663833-585588f2-2d8b-465c-9dab-1ac17b47949a.png">)
+      - Screenshot #1 (<img width="1144" alt="Screen Shot 2021-12-17 at 2 25 36 PM" src="https://user-images.githubusercontent.com/90395978/146597534-d8b314c8-a326-491a-ac6e-5e549ff6ba7d.png">)
         - Screenshot #1 User’s profile page should record/show First and Last name
 
   - [x] \(12/10/2021 of completion) User will be able to transfer funds to another user’s account
@@ -408,7 +408,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling and other changes: (https://github.com/KevinShah05/IT202-009/pull/57)
+      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 Form should include a dropdown of the current user’s accounts (as AccountSrc)
