@@ -429,15 +429,15 @@
         - Screenshot #3 Form should include a field for the last 4 digits of the destination user’s account number (to lookup AccountDest)
 
     - Screenshots
-      - Screenshot #4 (<img width="1144" alt="Screen Shot 2021-12-10 at 11 23 15 PM" src="https://user-images.githubusercontent.com/90395978/145663632-b39f7d1c-3f4c-497e-8948-47bf541f5849.png">)
+      - Screenshot #4 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 38 22 PM" src="https://user-images.githubusercontent.com/90395978/146605160-04cff36f-7129-415b-8e6d-a7dc639397c5.png">)
         - Screenshot #4 Form should include a field for a positive numerical value
 
     - Screenshots
-      - Screenshot #5 (<img width="1117" alt="Screen Shot 2021-12-09 at 10 37 25 PM" src="https://user-images.githubusercontent.com/90395978/145513327-af7fa7fb-3050-48e4-9831-fc9d84599d89.png">)
+      - Screenshot #5 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 39 01 PM" src="https://user-images.githubusercontent.com/90395978/146605207-c242a3ae-85b4-4b5b-a8e3-5664751c1bdc.png">)
         - Screenshot #5 Form should allow the user to record a memo for the transaction
 
     - Screenshots
-      - Screenshot #6 (<img width="1112" alt="Screen Shot 2021-12-09 at 10 40 03 PM" src="https://user-images.githubusercontent.com/90395978/145513538-b92d9646-9d93-4f9a-b024-2440dcbb04d0.png"><img width="1112" alt="Screen Shot 2021-12-09 at 10 40 50 PM" src="https://user-images.githubusercontent.com/90395978/145513605-359029af-b9a2-475f-9040-b8ad34ac942e.png">)
+      - Screenshot #6 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 42 18 PM" src="https://user-images.githubusercontent.com/90395978/146605552-18a190be-1c6f-451f-a2a7-3920b2c3e1e9.png">)
         - Screenshot #6 System shouldn’t let the user transfer more than the balance of their account
     
      - Screenshots
@@ -445,7 +445,7 @@
         - Screenshot #7 System will lookup appropriate account based on destination user’s last name and the last 4 digits of the account number
 
      - Screenshots
-      - Screenshot #8 (<img width="1112" alt="Screen Shot 2021-12-09 at 10 40 03 PM" src="https://user-images.githubusercontent.com/90395978/145513538-b92d9646-9d93-4f9a-b024-2440dcbb04d0.png"><img width="1112" alt="Screen Shot 2021-12-09 at 10 40 50 PM" src="https://user-images.githubusercontent.com/90395978/145513605-359029af-b9a2-475f-9040-b8ad34ac942e.png">)
+      - Screenshot #8 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 42 18 PM" src="https://user-images.githubusercontent.com/90395978/146605552-18a190be-1c6f-451f-a2a7-3920b2c3e1e9.png">)
         - Screenshot #8 Show appropriate user-friendly error messages
     
      - Screenshots
