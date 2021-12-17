@@ -42,6 +42,9 @@ if (isset($_POST["query"])) {
     <input name="query" placeholder="Search" value="<?php safer_echo($query); ?>"/>
     <input type="submit" value="Search" name="search"/>
 </form>
+
+<ul class = "Transactions">
+<body style= "background-color:bisque";></body>
 <div class="results">
     <?php if (count($results2) > 0): ?>
         <div class="list-group">
@@ -49,6 +52,7 @@ if (isset($_POST["query"])) {
             <?php foreach ($results2 as $r): ?>
                 <div class="list-group-item">
                 <div class="row font-weight-bold"></div>
+                
                     <div>
                         <p></p>
                         <div><strong>Account Number: </strong><?php safer_echo($r["account_number"]); ?></div>
@@ -86,6 +90,8 @@ if (isset($_POST["query"])) {
         <p>No results test</p>
     <?php endif; ?>
 </div>
+</ul>
+
 <?php
 require(__DIR__ . "/../../partials/flash.php");
 ?>

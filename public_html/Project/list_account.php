@@ -36,11 +36,16 @@ if(isset($_POST["search"]) && !empty($query)){
     <input name="query" placeholder="Search" value="<?php safer_echo($query); ?>"/>
     <input type="submit" value="Search" name="search"/>
 </form>
+
+<ul class = "ViewAcc">
+<body style= "background-color:bisque";></body>
 <div class="results">
     <?php if (count($results) > 0): ?>
         <div class="list-group">
             <?php foreach ($results as $r): ?>
                 <div class="list-group-item">
+                
+
                     <div>
                         <div>Account Number: <?php safer_echo($r["account_number"]); ?></div> 
                     </div>
@@ -64,6 +69,7 @@ if(isset($_POST["search"]) && !empty($query)){
         <p>No results (from local)</p>
     <?php endif; ?>
 </div>
+</ul>
 
 <?php
 require(__DIR__ . "/../../partials/flash.php");

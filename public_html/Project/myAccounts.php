@@ -18,14 +18,15 @@
     }
   }
 ?>
-
+<ul class = "Account">
+<body style= "background-color:bisque";></body>
 <div class="results">
     <?php if (count($results) > 0): ?>
         <div class="list-group">
             <?php foreach ($results as $r): ?>
                 <div class="list-group-item">
                 <div class="row font-weight-bold"></div>
-                    
+                
                     <div>
                         <div><strong>Account Number: </strong><?php safer_echo($r["account_number"]); ?></div>
                         
@@ -48,6 +49,7 @@
         <p>No results</p>
     <?php endif; ?>
 </div>
+</ul>
 <?php
 require(__DIR__ . "/../../partials/flash.php");
 ?>
