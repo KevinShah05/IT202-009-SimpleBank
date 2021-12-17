@@ -9,6 +9,9 @@
 
 
 <form method="POST">
+<ul class = "CreateAccount">
+<body style= "background-color:bisque";></body>
+
   <label> Account Number: </label>
   <input type="number" name="account_number" value="<?php echo $result["account_number"];?>" />
   
@@ -21,6 +24,7 @@
   <input type="number" min="5.00" name="balance" value="<?php echo $result["balance"];?>" />
 	<input type="submit" name="save" value="Create"/>
 </form>
+</ul>
 <?php 
 
 if(isset($_POST["save"])){

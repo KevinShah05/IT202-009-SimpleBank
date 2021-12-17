@@ -3,6 +3,90 @@ body {
     font-size: 1.5em;
 }
 
+ul[class="CreateAccount"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.CreateAccount {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.CreateAccount a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="EditAcc"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.EditAcc {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.EditAcc a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="CreateTrans"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.CreateTrans {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+.CreateTrans a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="MyTrans"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.MyTrans {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.MyTrans a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+
 ul[class="Account"]{
     list-style-type: none;
     margin: 0;
@@ -54,8 +138,7 @@ ul[class="Transactions"]{
     color: #eb1717;
 }
 
-
-ul[class="ViewAcc"]{
+ul[class="ViewTrans"]{
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -63,9 +146,34 @@ ul[class="ViewAcc"]{
     background-color: wheat;
 }
 
-.ViewAcc {
-    float: left;
+.ViewTrans {
+    display: block;
+    color: black;
     text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.ViewTrans a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="nav"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ec2d2d;
+}
+
+
+ul[class="ViewAcc"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
 }
 
 .ViewAcc {
