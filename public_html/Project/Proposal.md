@@ -346,7 +346,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
+      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/59)
     - Screenshots
       - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 05 37 PM" src="https://user-images.githubusercontent.com/90395978/146601748-3e5794bd-f63a-4018-b62b-4d37b37f690a.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 07 04 PM" src="https://user-images.githubusercontent.com/90395978/146601914-97324081-757c-41a3-8ef4-257537137625.png">)
         - Screenshot #1 User will be able to transfer between their accounts
@@ -381,7 +381,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
+      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/59)
     - Screenshots
       - Screenshot #1 (<img width="548" alt="Screen Shot 2021-12-17 at 2 24 14 PM" src="https://user-images.githubusercontent.com/90395978/146597378-4f0e8df5-facd-432e-ae0e-ca38dcf324ee.png">)
         - Screenshot #1 Will show the latest 10 transactions by default
@@ -400,7 +400,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
+      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/59)
     - Screenshots
       - Screenshot #1 (<img width="1144" alt="Screen Shot 2021-12-17 at 2 25 36 PM" src="https://user-images.githubusercontent.com/90395978/146597534-d8b314c8-a326-491a-ac6e-5e549ff6ba7d.png">)
         - Screenshot #1 User’s profile page should record/show First and Last name
@@ -411,7 +411,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/58)
+      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/59)
     - Screenshots
       - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 05 37 PM" src="https://user-images.githubusercontent.com/90395978/146601748-3e5794bd-f63a-4018-b62b-4d37b37f690a.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 07 04 PM" src="https://user-images.githubusercontent.com/90395978/146601914-97324081-757c-41a3-8ef4-257537137625.png">)
         - Screenshot #1 User will be able to transfer funds to another user’s account
