@@ -352,7 +352,7 @@
         - Screenshot #1 User will be able to transfer between their accounts
 
     - Screenshots
-      - Screenshot #2 (<img width="1435" alt="Screen Shot 2021-12-17 at 3 16 42 PM" src="https://user-images.githubusercontent.com/90395978/146602937-be26d1e0-9e81-4985-956b-9f4c0c1b84e6.png">)
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 20 08 PM" src="https://user-images.githubusercontent.com/90395978/146603340-29f4c34c-c663-4e95-997b-43d857091585.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 12 55 PM" src="https://user-images.githubusercontent.com/90395978/146602528-f53e8e88-c96f-4491-86b9-c8932c19f71e.png">)
         - Screenshot #2 Form should include a dropdown first AccountSrc and a dropdown for AccountDest (only accounts the user owns; no world account)
 
     - Screenshots
@@ -417,7 +417,7 @@
         - Screenshot #1 User will be able to transfer funds to another user’s account
     
     - Screenshots
-      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 12 55 PM" src="https://user-images.githubusercontent.com/90395978/146602528-f53e8e88-c96f-4491-86b9-c8932c19f71e.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 13 46 PM" src="https://user-images.githubusercontent.com/90395978/146602608-cadca32e-cc95-4eca-a414-18c6eed1f569.png">)
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 29 01 PM" src="https://user-images.githubusercontent.com/90395978/146604278-148cef85-93e4-4e74-b5cc-6c62e63bb6b2.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 28 16 PM" src="https://user-images.githubusercontent.com/90395978/146604200-1755cc74-7d74-459b-b589-1b274494c4ae.png">)
         - Screenshot #2 Form should include a dropdown of the current user’s accounts (as AccountSrc). Screentshot above are both from Source and Destination.
         
     - Screenshots
@@ -445,7 +445,7 @@
         - Screenshot #7 System will lookup appropriate account based on destination user’s last name and the last 4 digits of the account number
 
      - Screenshots
-      - Screenshot #8 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #8 (<img width="1112" alt="Screen Shot 2021-12-09 at 10 40 03 PM" src="https://user-images.githubusercontent.com/90395978/145513538-b92d9646-9d93-4f9a-b024-2440dcbb04d0.png"><img width="1112" alt="Screen Shot 2021-12-09 at 10 40 50 PM" src="https://user-images.githubusercontent.com/90395978/145513605-359029af-b9a2-475f-9040-b8ad34ac942e.png">)
         - Screenshot #8 Show appropriate user-friendly error messages
     
      - Screenshots
