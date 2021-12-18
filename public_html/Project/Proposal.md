@@ -447,13 +447,17 @@
      - Screenshots
       - Screenshot #8 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 42 18 PM" src="https://user-images.githubusercontent.com/90395978/146605552-18a190be-1c6f-451f-a2a7-3920b2c3e1e9.png">)
         - Screenshot #8 Show appropriate user-friendly error messages
+      
+     - Screenshots
+      - Screenshot #9 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 07 04 PM" src="https://user-images.githubusercontent.com/90395978/146601914-97324081-757c-41a3-8ef4-257537137625.png">)
+        - Screenshot #9 Show user-friendly success messages
     
      - Screenshots
-      - Screenshot #9 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #9 Transaction will be recorded with the type as “ext-transfer”
+      - Screenshot #10 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #10 Transaction will be recorded with the type as “ext-transfer”
     
     - Screenshots
-      - Screenshot #10 (<img width="959" alt="Screen Shot 2021-12-16 at 9 59 07 PM" src="https://user-images.githubusercontent.com/90395978/146481928-36d08490-8545-4ad3-a79d-60fd82751162.png">)
+      - Screenshot #11 (<img width="959" alt="Screen Shot 2021-12-16 at 9 59 07 PM" src="https://user-images.githubusercontent.com/90395978/146481928-36d08490-8545-4ad3-a79d-60fd82751162.png">)
         - Screenshot #10 Each transaction is recorded as a transaction pair in the Transaction table
    
 - Milestone 4
