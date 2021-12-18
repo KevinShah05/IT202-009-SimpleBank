@@ -24,6 +24,90 @@ ul[class="CreateAccount"]{
     color: #eb1717;
 }
 
+ul[class="CreateTrans"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.CreateTrans {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.CreateTrans a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="Login"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.Login {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Login a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="Home"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.Home {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Home a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="Profile"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.Profile {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Profile a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
 ul[class="EditAcc"]{
     list-style-type: none;
     margin: 0;
