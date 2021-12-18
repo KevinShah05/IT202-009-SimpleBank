@@ -346,21 +346,21 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/59)
+      - PR link #2 Styling: (https://github.com/KevinShah05/IT202-009/pull/60)
     - Screenshots
-      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 05 37 PM" src="https://user-images.githubusercontent.com/90395978/146601748-3e5794bd-f63a-4018-b62b-4d37b37f690a.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 07 04 PM" src="https://user-images.githubusercontent.com/90395978/146601914-97324081-757c-41a3-8ef4-257537137625.png">)
+      - Screenshot #1 (<img width="1438" alt="Screen Shot 2021-12-18 at 5 52 44 PM" src="https://user-images.githubusercontent.com/90395978/146657575-25eefde4-61ad-4eb9-a74d-61444aa793a6.png"><img width="1440" alt="Screen Shot 2021-12-18 at 5 53 27 PM" src="https://user-images.githubusercontent.com/90395978/146657584-e29531e2-ecf8-4a0a-a297-c08f2485a1f7.png">)
         - Screenshot #1 User will be able to transfer between their accounts
 
     - Screenshots
-      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 20 08 PM" src="https://user-images.githubusercontent.com/90395978/146603340-29f4c34c-c663-4e95-997b-43d857091585.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 12 55 PM" src="https://user-images.githubusercontent.com/90395978/146602528-f53e8e88-c96f-4491-86b9-c8932c19f71e.png">)
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 20 08 PM" src="https://user-images.githubusercontent.com/90395978/146603340-29f4c34c-c663-4e95-997b-43d857091585.png"><img width="1440" alt="Screen Shot 2021-12-18 at 5 54 38 PM" src="https://user-images.githubusercontent.com/90395978/146657611-d4653787-a277-4bdf-ae58-2f19e9a2bbf5.png">)
         - Screenshot #2 Form should include a dropdown first AccountSrc and a dropdown for AccountDest (only accounts the user owns; no world account)
 
     - Screenshots
-      - Screenshot #3 (<img width="1112" alt="Screen Shot 2021-12-09 at 10 40 50 PM" src="https://user-images.githubusercontent.com/90395978/145513605-359029af-b9a2-475f-9040-b8ad34ac942e.png">)
+      - Screenshot #3 (<img width="1440" alt="Screen Shot 2021-12-18 at 5 56 37 PM" src="https://user-images.githubusercontent.com/90395978/146657641-646f5ac9-3d37-4bb6-a700-e2cd69901bd4.png"><img width="1440" alt="Screen Shot 2021-12-18 at 5 57 06 PM" src="https://user-images.githubusercontent.com/90395978/146657650-8b142380-86d3-40cf-9a43-15b4af3036d9.png">)
         - Screenshot #3 System shouldn’t allow the user to transfer more funds than what’s available in AccountSrc
 
     - Screenshots
-      - Screenshot #4 (<img width="1117" alt="Screen Shot 2021-12-09 at 10 37 25 PM" src="https://user-images.githubusercontent.com/90395978/145513327-af7fa7fb-3050-48e4-9831-fc9d84599d89.png">)
+      - Screenshot #4 (<img width="1438" alt="Screen Shot 2021-12-18 at 5 52 44 PM" src="https://user-images.githubusercontent.com/90395978/146657575-25eefde4-61ad-4eb9-a74d-61444aa793a6.png">)
         - Screenshot #4 Form should allow the user to record a memo for the transaction
         
     - Screenshots
@@ -372,7 +372,7 @@
         - Screenshot #6 Show appropriate user-friendly error messages
     
      - Screenshots
-      - Screenshot #7 (<img width="1111" alt="Screen Shot 2021-12-09 at 10 51 12 PM" src="https://user-images.githubusercontent.com/90395978/145514507-bbf86121-b126-4ed8-a504-17b3395b8503.png">)
+      - Screenshot #7 (<<img width="1440" alt="Screen Shot 2021-12-18 at 6 00 42 PM" src="https://user-images.githubusercontent.com/90395978/146657720-320c58ae-7398-42b9-bdf0-4df09bffb129.png">)
         - Screenshot #7 Show user-friendly success messages
 
   - [x] \(12/10/2021 of completion) Transaction History page
@@ -381,7 +381,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/59)
+      - PR link #2 Styling: (https://github.com/KevinShah05/IT202-009/pull/60)
     - Screenshots
       - Screenshot #1 (<img width="548" alt="Screen Shot 2021-12-17 at 2 24 14 PM" src="https://user-images.githubusercontent.com/90395978/146597378-4f0e8df5-facd-432e-ae0e-ca38dcf324ee.png">)
         - Screenshot #1 Will show the latest 10 transactions by default
@@ -400,7 +400,7 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_account.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/59)
+      - PR link #2 Styling: (https://github.com/KevinShah05/IT202-009/pull/60)
     - Screenshots
       - Screenshot #1 (<img width="1144" alt="Screen Shot 2021-12-17 at 2 25 36 PM" src="https://user-images.githubusercontent.com/90395978/146597534-d8b314c8-a326-491a-ac6e-5e549ff6ba7d.png">)
         - Screenshot #1 User’s profile page should record/show First and Last name
@@ -411,13 +411,13 @@
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_transactions.php)
     - Pull Requests
       - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/52)
-      - PR link #2 Minor Styling: (https://github.com/KevinShah05/IT202-009/pull/59)
+      - PR link #2 Styling: (https://github.com/KevinShah05/IT202-009/pull/60)
     - Screenshots
-      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 05 37 PM" src="https://user-images.githubusercontent.com/90395978/146601748-3e5794bd-f63a-4018-b62b-4d37b37f690a.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 07 04 PM" src="https://user-images.githubusercontent.com/90395978/146601914-97324081-757c-41a3-8ef4-257537137625.png">)
+      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-18 at 6 02 05 PM" src="https://user-images.githubusercontent.com/90395978/146657737-e56c0223-788c-4e5d-9c94-f8ce34d5085e.png"><img width="1440" alt="Screen Shot 2021-12-18 at 6 02 40 PM" src="https://user-images.githubusercontent.com/90395978/146657743-ced2d0a2-f38d-4b2d-a2e4-77ce820edeef.png">)
         - Screenshot #1 User will be able to transfer funds to another user’s account
     
     - Screenshots
-      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 29 01 PM" src="https://user-images.githubusercontent.com/90395978/146604278-148cef85-93e4-4e74-b5cc-6c62e63bb6b2.png"><img width="1440" alt="Screen Shot 2021-12-17 at 3 28 16 PM" src="https://user-images.githubusercontent.com/90395978/146604200-1755cc74-7d74-459b-b589-1b274494c4ae.png">)
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-18 at 6 04 57 PM" src="https://user-images.githubusercontent.com/90395978/146657769-c6a99dda-4d3d-4f24-9f82-506afc43f6eb.png"><img width="1439" alt="Screen Shot 2021-12-18 at 6 05 18 PM" src="https://user-images.githubusercontent.com/90395978/146657773-cc6ccac2-d7bb-4b53-8ca1-b44571344a6f.png">)
         - Screenshot #2 Form should include a dropdown of the current user’s accounts (as AccountSrc). Screentshot above are both from Source and Destination.
         
     - Screenshots
@@ -429,15 +429,15 @@
         - Screenshot #3 Form should include a field for the last 4 digits of the destination user’s account number (to lookup AccountDest)
 
     - Screenshots
-      - Screenshot #4 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 38 22 PM" src="https://user-images.githubusercontent.com/90395978/146605160-04cff36f-7129-415b-8e6d-a7dc639397c5.png">)
+      - Screenshot #4 (<img width="1440" alt="Screen Shot 2021-12-18 at 6 06 30 PM" src="https://user-images.githubusercontent.com/90395978/146657791-37482934-341e-4474-b718-333e273edbef.png">)
         - Screenshot #4 Form should include a field for a positive numerical value
 
     - Screenshots
-      - Screenshot #5 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 39 01 PM" src="https://user-images.githubusercontent.com/90395978/146605207-c242a3ae-85b4-4b5b-a8e3-5664751c1bdc.png">)
+      - Screenshot #5 (<img width="1439" alt="Screen Shot 2021-12-18 at 6 07 33 PM" src="https://user-images.githubusercontent.com/90395978/146657812-8249ed11-a566-48b6-b1df-f5a889815e72.png">)
         - Screenshot #5 Form should allow the user to record a memo for the transaction
 
     - Screenshots
-      - Screenshot #6 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 42 18 PM" src="https://user-images.githubusercontent.com/90395978/146605552-18a190be-1c6f-451f-a2a7-3920b2c3e1e9.png">)
+      - Screenshot #6 (<img width="1440" alt="Screen Shot 2021-12-18 at 6 10 05 PM" src="https://user-images.githubusercontent.com/90395978/146657848-c5f8052a-6642-4b70-995f-eab0eab95bdc.png">)
         - Screenshot #6 System shouldn’t let the user transfer more than the balance of their account
     
      - Screenshots
@@ -445,11 +445,11 @@
         - Screenshot #7 System will lookup appropriate account based on destination user’s last name and the last 4 digits of the account number
 
      - Screenshots
-      - Screenshot #8 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 42 18 PM" src="https://user-images.githubusercontent.com/90395978/146605552-18a190be-1c6f-451f-a2a7-3920b2c3e1e9.png">)
+      - Screenshot #8 (<img width="1440" alt="Screen Shot 2021-12-18 at 6 10 05 PM" src="https://user-images.githubusercontent.com/90395978/146657848-c5f8052a-6642-4b70-995f-eab0eab95bdc.png">)
         - Screenshot #8 Show appropriate user-friendly error messages
       
      - Screenshots
-      - Screenshot #9 (<img width="1440" alt="Screen Shot 2021-12-17 at 3 07 04 PM" src="https://user-images.githubusercontent.com/90395978/146601914-97324081-757c-41a3-8ef4-257537137625.png">)
+      - Screenshot #9 (<img width="1440" alt="Screen Shot 2021-12-18 at 6 02 40 PM" src="https://user-images.githubusercontent.com/90395978/146657743-ced2d0a2-f38d-4b2d-a2e4-77ce820edeef.png">)
         - Screenshot #9 Show user-friendly success messages
     
      - Screenshots
