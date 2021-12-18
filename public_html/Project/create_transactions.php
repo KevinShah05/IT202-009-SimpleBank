@@ -3,7 +3,8 @@
 <?php
 $accounts = getDropDown();
 ?>
-
+<ul class = "CreateTrans">
+<body style= "background-color:bisque";></body>
    <h3 class="text-center"><strong>DEPOSITE/WITHRAW/TRANSFER</strong></h3> 
     <hr>
     <form method="POST">  
@@ -53,7 +54,7 @@ $accounts = getDropDown();
         <input class="btn btn-primary" type ="submit" name="save" value="create"/>
     <hr> 
     </form> 
-
+</ul>
 
 <?php
     if(isset($_POST["save"])){
