@@ -368,7 +368,7 @@
         - Screenshot #5 Each transaction is recorded as a transaction pair in the Transaction table
         
     - Screenshots
-      - Screenshot #6 (<img width="1112" alt="Screen Shot 2021-12-09 at 10 40 50 PM" src="https://user-images.githubusercontent.com/90395978/145513605-359029af-b9a2-475f-9040-b8ad34ac942e.png">)
+      - Screenshot #6 (<img width="1440" alt="Screen Shot 2021-12-18 at 5 57 06 PM" src="https://user-images.githubusercontent.com/90395978/146657650-8b142380-86d3-40cf-9a43-15b4af3036d9.png">)
         - Screenshot #6 Show appropriate user-friendly error messages
     
      - Screenshots
