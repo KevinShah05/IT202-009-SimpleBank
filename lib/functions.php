@@ -279,3 +279,27 @@ function openAccount($account_number, $balance){
 
     return doBankAction($world_id, $accID, ($balance * -1), $action, $memo);
 }
+
+function mysql_error_info($db)
+{
+    if ($db != null) {
+        $code = mysqli_errno($db);
+        $state = mysqli_sqlstate($db);
+        $error = mysqli_error($db);
+        $returnStr = "";
+        switch ($code) {
+            case 1062:
+                $returnStr =  "This email is already in use";
+                break;
+            case 1054:
+                $returnStr =  "Sorry folks, the developer forgot to add the column";
+                break;
+            default:
+                $returnStr =  "An unhandled error occurred: $code - $state - $error";
+                break;
+        }
+        return $returnStr;
+    } else {
+        return "Database is null???";
+    }
+}

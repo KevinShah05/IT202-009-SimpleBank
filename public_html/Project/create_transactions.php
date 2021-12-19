@@ -3,10 +3,12 @@
 <?php
 $accounts = getDropDown();
 ?>
-
-   <h3 class="text-center"><strong>DEPOSITE/WITHRAW</strong></h3> 
+<ul class = "CreateTrans">
+<body style= "background-color:bisque";></body>
+   <h3 class="text-center"><strong>DEPOSITE/WITHRAW/TRANSFER</strong></h3> 
     <hr>
-    <form method="POST">     
+    <form method="POST">  
+     
         <label>Source Account</label placeholder="0">
             <select name="s_id">
             <?php foreach($accounts as $row):?>
@@ -43,6 +45,7 @@ $accounts = getDropDown();
         <label>Action</label> 
         <select name="action" id="type" placeholder="transfer" onclick="showTransferForm()">
             
+            <option value ="transfer">transfer</option>
             <option value ="deposit">desposit</option>
             <option value ="withdrawl">withdraw</option>
         </select>
@@ -51,7 +54,7 @@ $accounts = getDropDown();
         <input class="btn btn-primary" type ="submit" name="save" value="create"/>
     <hr> 
     </form> 
-
+</ul>
 
 <?php
     if(isset($_POST["save"])){
@@ -97,9 +100,6 @@ $accounts = getDropDown();
         }
           
     }
-   
-
-
 ?>
 
 <?php

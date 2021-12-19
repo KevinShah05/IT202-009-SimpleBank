@@ -80,6 +80,17 @@ if (isset($_POST["save"])) {
         }
     }
 }
+if(isset($_POST["vis"])){
+    $sql = "UPDATE rv8_users SET visibility = ?  Where id = ?";
+    mysql_error_info($db);
+    $stmt = mysqli_stmt_init($db);
+    $visibility = $_POST["vis"];
+
+    mysqli_stmt_prepare($stmt, $sql);
+    mysqli_stmt_bind_param($stmt, "ii", $visibility, $user_id);
+    mysqli_stmt_execute($stmt);
+    $val = mysql_error_info($db);
+}
 ?>
 
 <?php
@@ -87,6 +98,10 @@ $email = get_user_email();
 $username = get_username();
 ?>
 <form method="POST" onsubmit="return validate(this);">
+
+<ul class = "Profile">
+<body style= "background-color:bisque";></body>
+
     <div class="mb-3">
         <label for="email">Email</label>
         <input type="email" name="email" id="email" value="<?php se($email); ?>" />
@@ -95,8 +110,21 @@ $username = get_username();
         <label for="username">Username</label>
         <input type="text" name="username" id="username" value="<?php se($username); ?>" />
     </div>
+    
+    <div>
+        <label for="vis">Visibility</label>
+        <select name="vis" id="vis" readonly>
+            <option <?php echo (['visibility'] == 0?'selected="selected"':'');?> value="0">Private</option>
+            <option <?php echo (['visibility'] == 1?'selected="selected"':'');?> value="1">Public</option>
+        </select>
+    </div>
+    <input type="submit" value="Change" name="subV" id="subV">
+    </form>
+
     <!-- DO NOT PRELOAD PASSWORD -->
-    <div>Password Reset</div>
+    <p></p>
+    <p style = "color:red;">Reset Password</p>
+   
     <div class="mb-3">
         <label for="cp">Current Password</label>
         <input type="password" name="currentPassword" id="cp" />
@@ -111,6 +139,7 @@ $username = get_username();
     </div>
     <input type="submit" value="Update Profile" name="save" />
 </form>
+</ul>
 
 <script>
     function validate(form) {

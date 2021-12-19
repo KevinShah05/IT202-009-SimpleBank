@@ -1,14 +1,20 @@
 <?php require(__DIR__ . "/../../partials/nav.php"); ?>
 <?php
+  
   if (!has_role("Admin")) {
     flash("You don't have permission to access this page");
     die(header("Location: login.php"));  
 }
 ?>
 
+
 <form method="POST">
-  <label> Account Number </label>
+<ul class = "CreateAccount">
+<body style= "background-color:bisque";></body>
+
+  <label> Account Number: </label>
   <input type="number" name="account_number" value="<?php echo $result["account_number"];?>" />
+  
   <label>Account Type</label>
   <select name="account_type">
     <option value = "checking">checking</option>
@@ -16,8 +22,9 @@
   </select>
   <label>Balance</label>
   <input type="number" min="5.00" name="balance" value="<?php echo $result["balance"];?>" />
-	<input type="submit" name="save" value="Create"/>
+  <input type="submit" name="save" value="Create"/>
 </form>
+</ul>
 <?php 
 
 if(isset($_POST["save"])){
