@@ -1,5 +1,6 @@
 <?php require(__DIR__. "/../../partials/nav.php");
-      require(__DIR__ . "/../lib/functions.php");
+    
+      
 ?>
 
 <?php
@@ -17,26 +18,29 @@
     }
   }
 ?>
-
+<ul class = "Account">
+<body style= "background-color:bisque";></body>
 <div class="results">
     <?php if (count($results) > 0): ?>
         <div class="list-group">
             <?php foreach ($results as $r): ?>
                 <div class="list-group-item">
+                <div class="row font-weight-bold"></div>
+                
                     <div>
-                        <div><strong>Account Number:</strong></div>
-                        <div><?php safer_echo($r["account_number"]); ?></div>
+                        <div><strong>Account Number: </strong><?php safer_echo($r["account_number"]); ?></div>
+                        
                     </div>
                     <div>
-                        <div><strong>Account Type:</strong></div>
-                        <div><?php safer_echo($r["account_type"]); ?></div>
+                        <div><strong>Account Type: </strong><?php safer_echo($r["account_type"]); ?></div>
                     </div>
                     <div>
-                        <div><strong>Balance:</strong></div>
-                        <div><?php safer_echo($r["balance"]); ?></div>
+                        <div><strong>Balance: </strong><?php safer_echo($r["balance"]); ?></strong></div>
                     </div>
                     <div>
-                        <a type="button" href="<?php echo getURL("accounts/my_transactions.php?id=" . $r["AccID"]); ?>">View Transaction History</a>
+                        <a type="button" href="my_transactions.php?id=<?php safer_echo($r["AccID"]); ?>">View Transaction History</a>
+                        <p></p>
+
                     </div>
                 </div>
             <?php endforeach; ?>
@@ -45,6 +49,7 @@
         <p>No results</p>
     <?php endif; ?>
 </div>
+</ul>
 <?php
 require(__DIR__ . "/../../partials/flash.php");
 ?>

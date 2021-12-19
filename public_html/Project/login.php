@@ -1,6 +1,8 @@
 <?php
 require(__DIR__ . "/../../partials/nav.php"); ?>
 <form onsubmit="return validate(this)" method="POST">
+<ul class = "Login">
+<body style= "background-color:bisque";></body>
     <div>
         <label for="email">Email</label>
         <input type="email" name="email" required />
@@ -11,6 +13,8 @@ require(__DIR__ . "/../../partials/nav.php"); ?>
     </div>
     <input type="submit" value="Login" />
 </form>
+</ul>
+
 <script>
     function validate(form) {
         //TODO 1: implement JavaScript validation

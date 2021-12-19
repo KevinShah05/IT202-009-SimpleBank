@@ -41,27 +41,31 @@ if(isset($_POST["save"])){
 <?php
 $result = []; 
 if(isset($id)){
-	$id = $_GET["id"];
-	$db = getDB();
-	$stmt = $db->prepare("SELECT * FROM Accounts where id = :id");
-	$r = $stmt->execute([":id"=>$id]);
-	$result = $stmt->fetch(PDO::FETCH_ASSOC);
+  $id = $_GET["id"];
+  $db = getDB();
+  $stmt = $db->prepare("SELECT * FROM Accounts where id = :id");
+  $r = $stmt->execute([":id"=>$id]);
+  $result = $stmt->fetch(PDO::FETCH_ASSOC);
 }
 ?>
 <form method="POST">
+<ul class = "EditAcc">
+
+<body style= "background-color:bisque";></body>
   <label>Account Number</label>
   <input type="number" name="account_number" value="<?php echo $result["account_number"];?>"/>
   <label>Account Type</label>
   <select name="account_type" value="<?php echo $result["account_type"];?>">
-		<option value="checking" <?php echo ($result["account_type"] == "0"?'selected="selected"':'');?>>checking</option>
+    <option value="checking" <?php echo ($result["account_type"] == "0"?'selected="selected"':'');?>>checking</option>
     <option value="saving" <?php echo ($result["account_type"] == "2"?'selected="selected"':'');?>>saving</option>
     <option value="loan" <?php echo ($result["account_type"] == "3"?'selected="selected"':'');?>>loan</option>
     <option value="world" <?php echo ($result["account_type"] == "4"?'selected="selected"':'');?>>world</option>
-	</select>
+  </select>
   <label>Balance</label> 
   <input type="number" min="10.00" name="balance" value="<?php echo $result["balance"];?>" />
   <input type="submit" name="save" value="Update"/>
 </form>
+</ul>
 
 <?php
 require(__DIR__ . "/../../partials/flash.php");
