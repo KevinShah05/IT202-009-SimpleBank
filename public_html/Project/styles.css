@@ -3,6 +3,258 @@ body {
     font-size: 1.5em;
 }
 
+ul[class="CreateAccount"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.CreateAccount {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.CreateAccount a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="CreateTrans"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.CreateTrans {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.CreateTrans a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="Login"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.Login {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Login a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="Home"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.Home {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Home a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="Profile"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.Profile {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Profile a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="EditAcc"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.EditAcc {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.EditAcc a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+
+
+ul[class="MyTrans"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.MyTrans {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.MyTrans a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+
+ul[class="Account"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font:#ffffff;
+}
+
+.Account {
+    float: left;
+    text-align: left;
+}
+
+.Account {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Account a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="Transactions"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+.Transactions {
+    float: left;
+    text-align: left;
+}
+
+.Transactions {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Transactions a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="ViewTrans"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.ViewTrans {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.ViewTrans a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
+ul[class="nav"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ec2d2d;
+}
+
+
+ul[class="ViewAcc"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.ViewAcc {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.ViewAcc a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
+
 ul[class="nav"]{
     list-style-type: none;
     margin: 0;
@@ -23,10 +275,13 @@ ul[class="nav"]{
     text-decoration: none;
 }
 
+
 .nav > li a:hover {
     background-color: #fffafa;
     color: #eb1717;
 }
+
+
 
 input, select {
     width: 100%;
