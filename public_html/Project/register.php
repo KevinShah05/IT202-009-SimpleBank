@@ -62,6 +62,8 @@ if(isset($_POST["submit"])){
 <div> 
     
     <form method="POST" onsubmit="return validate(this);">
+    <ul class = "Register">
+    <body style= "background-color:bisque";></body>
         <div>
             <lable for="email">Email: </lable>
             <input type="email" id="email" name="email" required />
@@ -82,6 +84,7 @@ if(isset($_POST["submit"])){
             <input type="submit" name="submit" value="Register" />
         </div>
     </form>
+</ul>
 <div>
 <script>
     function validate(form){
