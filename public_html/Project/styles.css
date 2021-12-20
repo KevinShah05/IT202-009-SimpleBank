@@ -86,6 +86,26 @@ ul[class="Home"]{
     background-color: #fffafa;
     color: #eb1717;
 }
+ul[class="Register"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.Register {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.Register a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
 
 ul[class="Profile"]{
     list-style-type: none;
@@ -94,6 +114,7 @@ ul[class="Profile"]{
     overflow: hidden;
     background-color: wheat;
 }
+
 
 .Profile {
     display: block;
