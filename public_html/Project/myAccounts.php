@@ -2,7 +2,13 @@
     
       
 ?>
-
+<?php
+  
+  if (!has_role("Admin")) {
+    flash("You don't have permission to access this page");
+    die(header("Location: login.php"));  
+}
+?>
 <?php
   $user = get_user_id();
   if(isset($user)){
