@@ -106,6 +106,12 @@ ul[class="Register"]{
     background-color: #fffafa;
     color: #eb1717;
 }
+
+
+.Register a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
 ul[class="Profile"]{
     list-style-type: none;
     margin: 0;
@@ -113,6 +119,7 @@ ul[class="Profile"]{
     overflow: hidden;
     background-color: wheat;
 }
+
 
 .Profile {
     display: block;
