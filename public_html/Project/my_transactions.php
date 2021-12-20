@@ -38,6 +38,17 @@ if (isset($user) && !empty($user)) {
                     <div class="list-group-item">
                         <div>
                             <div><strong>Action Type: </strong><?php safer_echo($r["action_type"]); ?></div>
+
+                        </div>
+                        <div>
+                            <div><strong>Source: </strong><?php safer_echo($r["act_src_id"]); ?></div>
+                        </div>
+                        <div>
+                            <div><strong>Destination: </strong><?php safer_echo($r["act_dest_id"]); ?></div>
+                        </div>
+                        <div>
+                            <div><strong>Amount: </strong><?php safer_echo($r["amount"]); ?></div>
+
                         </div>
                         <div>
                             <div><strong>Source: </strong><?php safer_echo($r["act_src_id"]); ?></div>
@@ -49,6 +60,9 @@ if (isset($user) && !empty($user)) {
                             <div><strong>Amount: </strong><?php safer_echo($r["amount"]); ?></div>
                             <p></p>
                         </div>
+               
+                            <p></p>
+                  
                         
                     </div>
                 <?php endforeach; ?>
