@@ -18,6 +18,8 @@
   <label>Account Type</label>
   <select name="account_type">
     <option value = "checking">checking</option>
+    <option value =  "saving">saving</option>
+    <option value = "loan">loan</option>
     
   </select>
   <label>Balance</label>
