@@ -461,7 +461,7 @@
         - Screenshot #10 Each transaction is recorded as a transaction pair in the Transaction table
    
 - Milestone 4
-  - [ ] \(mm/dd/yyyy of completion) User can set their profile to be public or private (will need another column in Users table)
+  - [x] \(mm/dd/yyyy of completion) User can set their profile to be public or private (will need another column in Users table)
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
@@ -471,7 +471,69 @@
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
 
-  - [ ] \(mm/dd/yyyy of completion) User will be able open a savings account
+  - [x] \(mm/dd/yyyy of completion) User will be able open a savings account
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 User will be able open a savings account
+      
+      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #2 System will generate a 12 digit/character account number per the existing rules
+      
+      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #3 System will associate the account to the user
+       
+      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #4 Account type will be set as savings
+      
+      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #5 Will require a minimum deposit of $5 (from the world account)
+      
+      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #6 System sets an APY that’ll be used to calculate monthly interest based on the balance of the account
+      
+      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #7 User will see user-friendly error messages when appropriate
+      
+      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #7 User will see user-friendly success message when account is created successfully
+
+  - [x] \(mm/dd/yyyy of completion) User will be able to take out a loan
+  -  List of Evidence of Feature Completion
+    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Pull Requests
+      - PR link #1 (repeat as necessary)
+    - Screenshots
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 User will be able to take out a loan
+      
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 System will generate a 12 digit/character account number per the existing rules
+      
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 Account type will be set as loan
+      
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 Will require a minimum value of $500
+      
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 System will show an APY
+      
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 Form will have a dropdown of the user’s accounts of which to deposit the money into
+      
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 User will see user-friendly error messages when appropriate
+      
+      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #1 User will see user-friendly success message when account is created successfully
+
+  - [x] \(mm/dd/yyyy of completion) Listing accounts and/or viewing Account Details should show any applicable APY or “-” if none is set for the particular account (may alternatively just hide the display for these types)
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
@@ -481,7 +543,7 @@
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
 
-  - [ ] \(mm/dd/yyyy of completion) User will be able to take out a loan
+  - [x] \(mm/dd/yyyy of completion) User will be able to close an account
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
@@ -491,27 +553,7 @@
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
 
-  - [ ] \(mm/dd/yyyy of completion) Listing accounts and/or viewing Account Details should show any applicable APY or “-” if none is set for the particular account (may alternatively just hide the display for these types)
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-
-  - [ ] \(mm/dd/yyyy of completion) User will be able to close an account
-  -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
-    - Pull Requests
-      - PR link #1 (repeat as necessary)
-    - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-
-  - [ ] \(mm/dd/yyyy of completion) Admin role (leave this section for last)
+  - [x] \(mm/dd/yyyy of completion) Admin role (leave this section for last)
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
