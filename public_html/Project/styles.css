@@ -201,6 +201,26 @@ ul[class="MyTrans"]{
     background-color: #fffafa;
     color: #eb1717;
 }
+ul[class="EdTrans"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
+
+.EdTrans {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.EdTrans a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
 
 
 ul[class="Account"]{

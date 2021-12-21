@@ -49,6 +49,8 @@ if (isset($id)) {
 }
 }
 ?>
+<ul class = "EdTrans">
+<body style= "background-color:bisque";></body>
     <h3>Edit Transaction</h3>
     <form method="POST">
         
