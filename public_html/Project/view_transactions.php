@@ -19,7 +19,7 @@ $accounts = getDropDown();
 $result = [];
 if (isset($id)) {
     $db = getDB();
-    $stmt = $db->prepare("SELECT`Transactions`.`act_src_id` AS `id`, `Transactions`.`act_dest_id` as `did`, `amount`, `action_type` FROM `Transactions` WHERE `id` = id");
+    $stmt = $db->prepare("SELECT`Transactions`.`act_src_id` AS `id`, `Transactions`.`act_dest_id` as `did`, `amount`, `action_type` FROM `Transactions` WHERE `id` = :id");
     $r = $stmt->execute([":id" => $id]);
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
     if (!$result) {
@@ -27,7 +27,7 @@ if (isset($id)) {
         flash($e[2]);
     }
 
-    $stmt2 = $db->prepare("SELECT account_number FROM Accounts WHERE Accounts.id = id");
+    $stmt2 = $db->prepare("SELECT account_number FROM Accounts WHERE Accounts.id = :id");
     $r2 = $stmt2->execute([":id" => $id]);
     $result2 = $stmt2->fetch(PDO::FETCH_ASSOC);
     if (!$result2) {
