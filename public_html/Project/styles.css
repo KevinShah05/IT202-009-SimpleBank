@@ -160,7 +160,26 @@ ul[class="EditAcc"]{
     color: #eb1717;
 }
 
+ul[class="ViewTra"]{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat;
+}
 
+.ViewTra {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.ViewTra a:hover {
+    background-color: #fffafa;
+    color: #eb1717;
+}
 
 ul[class="MyTrans"]{
     list-style-type: none;

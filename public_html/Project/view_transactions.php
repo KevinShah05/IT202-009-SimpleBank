@@ -26,19 +26,13 @@ if (isset($id)) {
         $e = $stmt->errorInfo();
         flash($e[2]);
     }
-
-    $stmt2 = $db->prepare("SELECT account_number FROM Accounts WHERE Accounts.id = :id");
-    $r2 = $stmt2->execute([":id" => $id]);
-    $result2 = $stmt2->fetch(PDO::FETCH_ASSOC);
-    if (!$result2) {
-        $e = $stmt->errorInfo();
-        flash($e[2]);
-    }
 }
 ?>
 
 
 <h3>View Transaction</h3>
+<ul class = "ViewTra">
+<body style= "background-color:bisque";></body>
 <?php if (isset($result) && !empty($result)): ?>
     <div class="card">
         <div class="card-title">
@@ -46,9 +40,9 @@ if (isset($id)) {
         <div class="card-body">
             <div>
                 <p><b>Information</b></p> 
-                <div>Account Number: <?php safer_echo($result2["account_number"]); ?> </div>
+                
                 <div>Amount:<?php safer_echo($result["amount"]); ?></div>
-                <div>Action: Type <?php safer_echo($result["action_type"]); ?> </div>
+                <div>Action: <?php safer_echo($result["action_type"]); ?> </div>
             </div>
         </div>
     </div>
