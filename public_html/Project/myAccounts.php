@@ -8,7 +8,7 @@
   if(isset($user)){
   $results = [];
   $db = getDB();
-  $stmt = $db->prepare("SELECT Accounts.user_id as UserID, Accounts.id as AccID, account_number, account_type, balance FROM Accounts WHERE Accounts.user_id = :q LIMIT 10");
+  $stmt = $db->prepare("SELECT Accounts.user_id as UserID, Accounts.id as AccID, account_number, account_type, balance FROM Accounts WHERE Accounts.user_id = :q LIMIT 2");
   $r = $stmt->execute([":q" => $user]);
     if($r){
       $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
