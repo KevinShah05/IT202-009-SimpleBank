@@ -461,22 +461,22 @@
         - Screenshot #10 Each transaction is recorded as a transaction pair in the Transaction table
    
 - Milestone 4
-  - [x] \(mm/dd/yyyy of completion) User can set their profile to be public or private (will need another column in Users table)
+  - [x] \(12/21/1999 of completion) User can set their profile to be public or private (will need another column in Users table)
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Status: Completed
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/profile.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/70)
     - Screenshots
       - Screenshot #1 (<img width="1437" alt="Screen Shot 2021-12-21 at 9 27 34 PM" src="https://user-images.githubusercontent.com/90395978/147024758-8316b1e9-7181-422e-8d1b-5ce5705ba774.png">)
         - Screenshot #1 User can set their profile to be public or private 
 
-  - [x] \(mm/dd/yyyy of completion) User will be able open a savings account
+  - [x] \(12/21/1999 of completion) User will be able open a savings account
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Status: Completed
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/70)
     - Screenshots
       - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 30 28 PM" src="https://user-images.githubusercontent.com/90395978/147025023-c90cf8e5-7bde-4880-a6cc-e03429c86d31.png"><img width="1440" alt="Screen Shot 2021-12-21 at 9 31 05 PM" src="https://user-images.githubusercontent.com/90395978/147025082-00dfbbe8-8b8b-4ee8-81ee-58b9ae71cb8b.png">)
         - Screenshot #1 User will be able open a savings account
@@ -499,12 +499,12 @@
       - Screenshot #7 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 31 05 PM" src="https://user-images.githubusercontent.com/90395978/147025082-00dfbbe8-8b8b-4ee8-81ee-58b9ae71cb8b.png">)
         - Screenshot #7 User will see user-friendly success message when account is created successfully
 
-  - [x] \(mm/dd/yyyy of completion) User will be able to take out a loan
+  - [x] \(12/21/1999 of completion) User will be able to take out a loan
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
+    - Status: Completed
     - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/70)
     - Screenshots
       - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 41 12 PM" src="https://user-images.githubusercontent.com/90395978/147026096-276f8bc5-d62d-4876-9579-4b2457037a0f.png"><img width="1440" alt="Screen Shot 2021-12-21 at 9 41 55 PM" src="https://user-images.githubusercontent.com/90395978/147026175-16dfbfc7-ade5-4ec5-8664-4fe77fdd5c39.png">)
         - Screenshot #1 User will be able to take out a loan
@@ -530,7 +530,7 @@
       - Screenshot #8 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 41 55 PM" src="https://user-images.githubusercontent.com/90395978/147026175-16dfbfc7-ade5-4ec5-8664-4fe77fdd5c39.png">)
         - Screenshot #8 User will see user-friendly success message when account is created successfully
 
-  - [x] \(mm/dd/yyyy of completion) Listing accounts and/or viewing Account Details should show any applicable APY or “-” if none is set for the particular account (may alternatively just hide the display for these types)
+  - [] \(mm/dd/yyyy of completion) Listing accounts and/or viewing Account Details should show any applicable APY or “-” if none is set for the particular account (may alternatively just hide the display for these types)
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
@@ -540,7 +540,7 @@
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
 
-  - [x] \(mm/dd/yyyy of completion) User will be able to close an account
+  - [] \(mm/dd/yyyy of completion) User will be able to close an account
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
     - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
@@ -550,16 +550,30 @@
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
         - Screenshot #1 description explaining what you're trying to show
 
-  - [x] \(mm/dd/yyyy of completion) Admin role (leave this section for last)
+  - [x] \(12/21/1999 of completion) Admin role (leave this section for last)
   -  List of Evidence of Feature Completion
-    - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Status: Partially working
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/list_account.php)
     - Pull Requests
-      - PR link #1 (repeat as necessary)
+      - PR link #1 (https://github.com/KevinShah05/IT202-009/pull/70)
     - Screenshots
       - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
-        
+        - Screenshot #1 Will be able to search for users by firstname and/or lastname
+      
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 57 22 PM" src="https://user-images.githubusercontent.com/90395978/147027910-3efacff8-e46d-4f35-a4b4-42f189d5defb.png">)
+        - Screenshot #2 Will be able to look-up specific account numbers.
+      
+      - Screenshot #3 (<img width="1440" alt="Screen Shot 2021-12-21 at 10 00 35 PM" src="https://user-images.githubusercontent.com/90395978/147028214-07467dc0-f481-43ac-a091-8dadc7671bdd.png"><img width="1440" alt="Screen Shot 2021-12-21 at 10 00 12 PM" src="https://user-images.githubusercontent.com/90395978/147028165-b84bd245-3322-4bc6-ac09-3f3e8c8d6334.png">)
+        - Screenshot #3 Will be able to see the transaction history of an account
+      
+      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #4 Will be able to freeze an account
+      
+      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #5 Will be able to open accounts for specific users
+      
+      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #6 Will be able to deactivate a user
 ### Intructions
 #### Don't delete this
 1. Pick one project type
