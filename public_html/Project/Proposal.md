@@ -464,74 +464,71 @@
   - [x] \(mm/dd/yyyy of completion) User can set their profile to be public or private (will need another column in Users table)
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/profile.php)
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 description explaining what you're trying to show
+      - Screenshot #1 (<img width="1437" alt="Screen Shot 2021-12-21 at 9 27 34 PM" src="https://user-images.githubusercontent.com/90395978/147024758-8316b1e9-7181-422e-8d1b-5ce5705ba774.png">)
+        - Screenshot #1 User can set their profile to be public or private 
 
   - [x] \(mm/dd/yyyy of completion) User will be able open a savings account
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 30 28 PM" src="https://user-images.githubusercontent.com/90395978/147025023-c90cf8e5-7bde-4880-a6cc-e03429c86d31.png"><img width="1440" alt="Screen Shot 2021-12-21 at 9 31 05 PM" src="https://user-images.githubusercontent.com/90395978/147025082-00dfbbe8-8b8b-4ee8-81ee-58b9ae71cb8b.png">)
         - Screenshot #1 User will be able open a savings account
       
-      - Screenshot #2 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 32 27 PM" src="https://user-images.githubusercontent.com/90395978/147025193-d94ba334-012f-495f-9413-89aaabe5cd1f.png">)
         - Screenshot #2 System will generate a 12 digit/character account number per the existing rules
       
-      - Screenshot #3 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #3 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 33 21 PM" src="https://user-images.githubusercontent.com/90395978/147025284-62a2d13d-44f1-431a-a383-4f3d9c7a2aa5.png">)
         - Screenshot #3 System will associate the account to the user
        
-      - Screenshot #4 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #4 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 34 21 PM" src="https://user-images.githubusercontent.com/90395978/147025389-a66cbd28-5284-41cb-8820-0ca55624b99b.png">)
         - Screenshot #4 Account type will be set as savings
       
-      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #5 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 36 25 PM" src="https://user-images.githubusercontent.com/90395978/147025601-8753ab97-c2b2-4b28-83d2-fd8b705d90b2.png">)
         - Screenshot #5 Will require a minimum deposit of $5 (from the world account)
-      
-      - Screenshot #6 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #6 System sets an APY that’ll be used to calculate monthly interest based on the balance of the account
-      
-      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
+        - 
+      - Screenshot #6 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 36 25 PM" src="https://user-images.githubusercontent.com/90395978/147025601-8753ab97-c2b2-4b28-83d2-fd8b705d90b2.png">)
         - Screenshot #7 User will see user-friendly error messages when appropriate
       
-      - Screenshot #7 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #7 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 31 05 PM" src="https://user-images.githubusercontent.com/90395978/147025082-00dfbbe8-8b8b-4ee8-81ee-58b9ae71cb8b.png">)
         - Screenshot #7 User will see user-friendly success message when account is created successfully
 
   - [x] \(mm/dd/yyyy of completion) User will be able to take out a loan
   -  List of Evidence of Feature Completion
     - Status: Pending (Completed, Partially working, Incomplete, Pending)
-    - Direct Link: (Direct link to the file or files in heroku prod for quick testing (even if it's a protected page))
+    - Direct Link: (https://khs4-prod.herokuapp.com/Project/create_account.php)
     - Pull Requests
       - PR link #1 (repeat as necessary)
     - Screenshots
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
+      - Screenshot #1 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 41 12 PM" src="https://user-images.githubusercontent.com/90395978/147026096-276f8bc5-d62d-4876-9579-4b2457037a0f.png"><img width="1440" alt="Screen Shot 2021-12-21 at 9 41 55 PM" src="https://user-images.githubusercontent.com/90395978/147026175-16dfbfc7-ade5-4ec5-8664-4fe77fdd5c39.png">)
         - Screenshot #1 User will be able to take out a loan
       
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 System will generate a 12 digit/character account number per the existing rules
+      - Screenshot #2 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 42 19 PM" src="https://user-images.githubusercontent.com/90395978/147026258-c0e8e9dc-fc1f-4010-899e-a301f96f3fb9.png">)
+        - Screenshot #2 System will generate a 12 digit/character account number per the existing rules
       
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 Account type will be set as loan
+      - Screenshot #3 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 44 01 PM" src="https://user-images.githubusercontent.com/90395978/147026446-b578269e-3a92-4730-a10d-8cdc036e8420.png">)
+        - Screenshot #3 Account type will be set as loan
       
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 Will require a minimum value of $500
+      - Screenshot #4 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 46 18 PM" src="https://user-images.githubusercontent.com/90395978/147026694-49dad015-45fd-47f3-8ad7-4bd4d9992254.png">)
+        - Screenshot #4 Will require a minimum value of $500
       
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 System will show an APY
+      - Screenshot #5 (paste the image so it uploads to github) (repeat as necessary)
+        - Screenshot #5 System will show an APY
       
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 Form will have a dropdown of the user’s accounts of which to deposit the money into
+      - Screenshot #6 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 47 28 PM" src="https://user-images.githubusercontent.com/90395978/147026814-62b6ab22-eddd-4d08-a200-4256f5e47886.png">)
+        - Screenshot #6 Form will have a dropdown of the user’s accounts of which to deposit the money into
       
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 User will see user-friendly error messages when appropriate
+      - Screenshot #7 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 46 18 PM" src="https://user-images.githubusercontent.com/90395978/147026694-49dad015-45fd-47f3-8ad7-4bd4d9992254.png">)
+        - Screenshot #7 User will see user-friendly error messages when appropriate
       
-      - Screenshot #1 (paste the image so it uploads to github) (repeat as necessary)
-        - Screenshot #1 User will see user-friendly success message when account is created successfully
+      - Screenshot #8 (<img width="1440" alt="Screen Shot 2021-12-21 at 9 41 55 PM" src="https://user-images.githubusercontent.com/90395978/147026175-16dfbfc7-ade5-4ec5-8664-4fe77fdd5c39.png">)
+        - Screenshot #8 User will see user-friendly success message when account is created successfully
 
   - [x] \(mm/dd/yyyy of completion) Listing accounts and/or viewing Account Details should show any applicable APY or “-” if none is set for the particular account (may alternatively just hide the display for these types)
   -  List of Evidence of Feature Completion
