@@ -1,8 +1,9 @@
 # Project Name: Simple Bank
 ## Project Summary: This project will create a bank simulation for users. They’ll be able to have various accounts, do standard bank functions like deposit, withdraw, internal (user’s accounts)/external(other user’s accounts) transfers, and creating/closing accounts.
-## Github Link: (Prod Branch of Project Folder)
+## Github Link: (Prod Branch of Project Folder: https://github.com/KevinShah05/IT202-009/tree/prod-khs4)
 ## Project Board Link: https://github.com/KevinShah05/IT202-009/projects/2
 ## Website Link: (https://khs4-prod.herokuapp.com/Project/register.php)
+## Demo Link: (https://www.youtube.com/watch?v=FPyQ4P6Rtoc)
 ## Your Name: Kevin Shah
 
 <!--
