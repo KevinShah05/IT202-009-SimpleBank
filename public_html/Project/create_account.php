@@ -18,7 +18,6 @@
   <label>Account Type</label>
   <select name="account_type">
     <option value = "checking">checking</option>
-    <option value = "world">world</option>
     
   </select>
   <label>Balance</label>

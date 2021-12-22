@@ -19,7 +19,7 @@ $accounts = getDropDown();
 $result = [];
 if (isset($id)) {
     $db = getDB();
-    $stmt = $db->prepare("SELECT`Transactions`.`act_src_id` AS `id`, `Transactions`.`act_dest_id` as `did`, `amount`, `action_type` FROM `Transactions` WHERE `id` = id");
+    $stmt = $db->prepare("SELECT`Transactions`.`act_src_id` AS `id`, `Transactions`.`act_dest_id` as `did`, `amount`, `action_type` FROM `Transactions` WHERE `id` = :id");
     $r = $stmt->execute([":id" => $id]);
     $result = $stmt->fetch(PDO::FETCH_ASSOC);
     if (!$result) {
@@ -27,7 +27,7 @@ if (isset($id)) {
         flash($e[2]);
     }
 
-    $stmt2 = $db->prepare("SELECT account_number FROM Accounts WHERE Accounts.id = id");
+    $stmt2 = $db->prepare("SELECT account_number FROM Accounts WHERE Accounts.id = :id");
     $r2 = $stmt2->execute([":id" => $id]);
     $result2 = $stmt2->fetch(PDO::FETCH_ASSOC);
     if (!$result2) {
@@ -39,6 +39,8 @@ if (isset($id)) {
 
 
 <h3>View Transaction</h3>
+<ul class = "ViewTrans">
+<body style= "background-color:bisque";></body>
 <?php if (isset($result) && !empty($result)): ?>
     <div class="card">
         <div class="card-title">
@@ -46,9 +48,9 @@ if (isset($id)) {
         <div class="card-body">
             <div>
                 <p><b>Information</b></p> 
-                <div>Account Number: <?php safer_echo($result2["account_number"]); ?> </div>
-                <div>Amount:<?php safer_echo($result["amount"]); ?></div>
-                <div>Action: Type <?php safer_echo($result["action_type"]); ?> </div>
+                
+                <div>Amount: <?php safer_echo($result["amount"]); ?></div>
+                <div>Action: <?php safer_echo($result["action_type"]); ?> </div>
             </div>
         </div>
     </div>
