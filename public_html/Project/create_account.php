@@ -1,12 +1,4 @@
 <?php require(__DIR__ . "/../../partials/nav.php"); ?>
-<?php
-  
-  if (!has_role("Admin")) {
-    flash("You don't have permission to access this page");
-    die(header("Location: login.php"));  
-}
-?>
-
 
 <form method="POST">
 <ul class = "CreateAccount">

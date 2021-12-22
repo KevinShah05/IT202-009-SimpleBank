@@ -1,7 +1,4 @@
-<?php require(__DIR__. "/../../partials/nav.php");
-    
-      
-?>
+<?php require(__DIR__. "/../../partials/nav.php");?>
 
 <?php
   $user = get_user_id();
