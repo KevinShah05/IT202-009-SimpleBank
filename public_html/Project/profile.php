@@ -80,17 +80,7 @@ if (isset($_POST["save"])) {
         }
     }
 }
-if(isset($_POST["vis"])){
-    $sql = "UPDATE rv8_users SET visibility = ?  Where id = ?";
-    mysql_error_info($db);
-    $stmt = mysqli_stmt_init($db);
-    $visibility = $_POST["vis"];
 
-    mysqli_stmt_prepare($stmt, $sql);
-    mysqli_stmt_bind_param($stmt, "ii", $visibility, $user_id);
-    mysqli_stmt_execute($stmt);
-    $val = mysql_error_info($db);
-}
 ?>
 
 <?php

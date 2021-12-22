@@ -50,17 +50,6 @@ if (isset($user) && !empty($user)) {
                             <div><strong>Amount: </strong><?php safer_echo($r["amount"]); ?></div>
 
                         </div>
-                        <div>
-                            <div><strong>Source: </strong><?php safer_echo($r["act_src_id"]); ?></div>
-                        </div>
-                        <div>
-                            <div><strong>Destination: </strong><?php safer_echo($r["act_dest_id"]); ?></div>
-                        </div>
-                        <div>
-                            <div><strong>Amount: </strong><?php safer_echo($r["amount"]); ?></div>
-                            <p></p>
-                        </div>
-               
                             <p></p>
                   
                         
